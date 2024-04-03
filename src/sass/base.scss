@@ -1,6 +1,95 @@
+body {
+    background-color: #F7F9FC;
+}
+
 h1 {
     color: red;
 }
+
 p {
-    color: blue;    
+    color: blue;
+}
+
+.dark {
+    background-color: #23354B;
+}
+
+.btn-emplenats {
+    .btn-1 {
+        @include btn('emplenat', 'active', 'mitjar');
+    }
+
+    .btn-2 {
+        @include btn('emplenat', 'active', 'petit');
+    }
+
+    .btn-3 {
+        @include btn('emplenat', 'disabled', 'mitjar');
+    }
+
+    .btn-4 {
+        @include btn('emplenat', 'disabled', 'petit');
+    }
+}
+
+.btn-subratllat {
+    .btn-5 {
+        @include btn('subratllat', 'active', 'mitjar');
+    }
+
+    .btn-6 {
+        @include btn('subratllat', 'active', 'petit');
+    }
+
+    .btn-7 {
+        @include btn('subratllat', 'disabled', 'mitjar');
+    }
+
+    .btn-8 {
+        @include btn('subratllat', 'disabled', 'petit');
+    }
+}
+
+.btn-text {
+    .btn-9 {
+        @include btn('text', 'light', 'mitjar');
+    }
+
+    .btn-10 {
+        @include btn('text', 'light', 'petit');
+    }
+
+    .btn-11 {
+        background-color: #23354B;
+        @include btn('text', 'dark', 'mitjar');
+    }
+
+    .btn-12 {
+        background-color: #23354B;
+        @include btn('text', 'dark', 'petit');
+    }
+
+    .btn-13 {
+        @include btn('text', 'disabled-light', 'mitjar');
+    }
+
+    .btn-14 {
+        @include btn('text', 'disabled-light', 'petit');
+    }
+
+    .btn-15 {
+        @include btn('text', 'disabled-dark', 'mitjar');
+    }
+
+    .btn-16 {
+        @include btn('text', 'disabled-dark', 'petit');
+    }
+
+    
+}
+
+.btn-warning {
+    .btn-17 {
+        @include btn('warning', 'active', 'mitjar');
+    }
 }
