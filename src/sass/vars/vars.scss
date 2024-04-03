@@ -1,1 +1,43 @@
-$btn-primary-color: #006BE8;
+// PRIMARY COLORS
+$primary-color-main: #006BE8;       // 700
+$primary-color-darker: #1839B6;     // 900
+$primary-color-lighter: #D9EDFF;    // 100
+$primary-color-200: #89C6FF;        // 200
+
+// GRAY COLORS
+$grey-color-hight: #23354B;                 // 900
+$grey-color-medium: rgba(#23354B, 0.72);    // 900 72%
+$grey-color-low: rgba(#23354B, 0.38);       // 900 38%
+$grey-color-divider: rgba(#23354B, 0.12);   // 900 12%
+
+// ERROR COLORS
+$error-color-600: #D61660;   // 600
+
+// BUTTONS GENERAL
+$btn-main-color: $primary-color-main;
+$btn-color-font: #ffffff;
+$btn-font-family: "Work Sans", sans-serif;
+$btn-font-size: 15px;
+$btn-font-weight: 500;
+$btn-border-radius: 6px;
+$btn-border: 1px solid;
+
+// BUTTONS COLOR VARIATION 
+$btn-emplenat-hover: #1477EA;
+$btn-emplenat-pressed: #1F7DEB;
+$btn-disabled-gray: $grey-color-divider;
+$btn-disabled-gray-font: $grey-color-low;
+$btn-subratllat-hover: rgba($btn-main-color, 4%);
+$btn-subratllat-pressed: rgba($btn-main-color, 6%);
+$btn-text-light-hover: rgba($btn-main-color, 4%);
+$btn-text-light-pressed: rgba($btn-main-color, 6%);
+$btn-text-dark: $primary-color-200;
+$btn-text-dark-hover: rgba(white, 8%);
+$btn-text-dark-pressed: rgba(white, 12%);
+$btn-text-disabled-dark: rgba(white, 38%);
+$btn-warning-hover: #D9286C;
+$btn-warning-pressed: #DB3273;
+
+// BUTTONS SHADOW VARIATION 
+$btn-shadow-hover: 0px 4px 5px 0px rgba(#000000, 0.12);
+$btn-shadow-pressed: 0px 6px 10px 0px rgba(#23354B, 0.14);
