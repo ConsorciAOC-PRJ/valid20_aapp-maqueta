@@ -16,73 +16,233 @@ p {
 
 .btn-emplenats {
     .btn-1 {
-        @include btn('emplenat', 'active', 'mitjar');
+        @include btn('emplenat', 'active', 'mitjar', 'no');
+    }
+
+    .btn-1add {
+        @include btn('emplenat', 'active', 'mitjar', 'yes-left');
+        @include btn-center-icon();
+    }
+
+    .btn-1arrow {
+        @include btn('emplenat', 'active', 'mitjar', 'yes-right');
+        @include btn-center-icon();
     }
 
     .btn-2 {
-        @include btn('emplenat', 'active', 'petit');
+        @include btn('emplenat', 'active', 'petit', 'no');
+    }
+
+    .btn-2add {
+        @include btn('emplenat', 'active', 'petit', 'yes-left');
+        @include btn-center-icon();
+    }
+
+    .btn-2arrow {
+        @include btn('emplenat', 'active', 'petit', 'yes-right');
+        @include btn-center-icon();
     }
 
     .btn-3 {
-        @include btn('emplenat', 'disabled', 'mitjar');
+        @include btn('emplenat', 'disabled', 'mitjar', 'no');
+    }
+
+    .btn-3add {
+        @include btn('emplenat', 'disabled', 'mitjar', 'yes-left');
+        @include btn-center-icon();
+    }
+
+    .btn-3arrow {
+        @include btn('emplenat', 'disabled', 'mitjar', 'yes-right');
+        @include btn-center-icon();
     }
 
     .btn-4 {
-        @include btn('emplenat', 'disabled', 'petit');
+        @include btn('emplenat', 'disabled', 'petit', 'no');
+    }
+
+    .btn-4add {
+        @include btn('emplenat', 'disabled', 'petit', 'yes-left');
+        @include btn-center-icon();
+    }
+
+    .btn-4arrow {
+        @include btn('emplenat', 'disabled', 'petit', 'yes-right');
+        @include btn-center-icon();
     }
 }
 
 .btn-subratllat {
     .btn-5 {
-        @include btn('subratllat', 'active', 'mitjar');
+        @include btn('subratllat', 'active', 'mitjar', 'no');
+    }
+
+    .btn-5add {
+        @include btn('subratllat', 'active', 'mitjar', 'yes-left');
+        @include btn-center-icon();
+    }
+
+    .btn-5arrow {
+        @include btn('subratllat', 'active', 'mitjar', 'yes-right');
+        @include btn-center-icon();
     }
 
     .btn-6 {
-        @include btn('subratllat', 'active', 'petit');
+        @include btn('subratllat', 'active', 'petit', 'no');
+    }
+
+    .btn-6add {
+        @include btn('subratllat', 'active', 'petit', 'yes-left');
+        @include btn-center-icon();
+    }
+
+    .btn-6arrow {
+        @include btn('subratllat', 'active', 'petit', 'yes-right');
+        @include btn-center-icon();
     }
 
     .btn-7 {
-        @include btn('subratllat', 'disabled', 'mitjar');
+        @include btn('subratllat', 'disabled', 'mitjar', 'no');
+    }
+
+    .btn-7add {
+        @include btn('subratllat', 'disabled', 'mitjar', 'yes-left');
+        @include btn-center-icon();
+    }
+
+    .btn-7arrow {
+        @include btn('subratllat', 'disabled', 'mitjar', 'yes-right');
+        @include btn-center-icon();
     }
 
     .btn-8 {
-        @include btn('subratllat', 'disabled', 'petit');
+        @include btn('subratllat', 'disabled', 'petit', 'no');
+    }
+
+    .btn-8add {
+        @include btn('subratllat', 'disabled', 'petit', 'yes-left');
+        @include btn-center-icon();
+    }
+
+    .btn-8arrow {
+        @include btn('subratllat', 'disabled', 'petit', 'yes-right');
+        @include btn-center-icon();
     }
 }
 
 .btn-text {
     .btn-9 {
-        @include btn('text', 'light', 'mitjar');
+        @include btn('text', 'light', 'mitjar', 'no');
+    }
+
+    .btn-9add {
+        @include btn('text', 'light', 'mitjar', 'yes-left');
+        @include btn-center-icon();
+    }
+
+    .btn-9arrow {
+        @include btn('text', 'light', 'mitjar', 'yes-right');
+        @include btn-center-icon();
     }
 
     .btn-10 {
-        @include btn('text', 'light', 'petit');
+        @include btn('text', 'light', 'petit', 'no');
+    }
+
+    .btn-10add {
+        @include btn('text', 'light', 'petit', 'yes-left');
+        @include btn-center-icon();
+    }
+
+    .btn-10arrow {
+        @include btn('text', 'light', 'petit', 'yes-right');
+        @include btn-center-icon();
     }
 
     .btn-11 {
         background-color: #23354B;
-        @include btn('text', 'dark', 'mitjar');
+        @include btn('text', 'dark', 'mitjar', 'no');
+    }
+
+    .btn-11add {
+        @include btn('text', 'dark', 'mitjar', 'yes-left');
+        @include btn-center-icon();
+    }
+
+    .btn-11arrow {
+        @include btn('text', 'dark', 'mitjar', 'yes-right');
+        @include btn-center-icon();
     }
 
     .btn-12 {
         background-color: #23354B;
-        @include btn('text', 'dark', 'petit');
+        @include btn('text', 'dark', 'petit', 'no');
+    }
+
+    .btn-12add {
+        @include btn('text', 'dark', 'petit', 'yes-left');
+        @include btn-center-icon();
+    }
+
+    .btn-12arrow {
+        @include btn('text', 'dark', 'petit', 'yes-right');
+        @include btn-center-icon();
     }
 
     .btn-13 {
-        @include btn('text', 'disabled-light', 'mitjar');
+        @include btn('text', 'disabled-light', 'mitjar', 'no');
+    }
+
+    .btn-13add {
+        @include btn('text', 'disabled-light', 'mitjar', 'yes-left');
+        @include btn-center-icon();
+    }
+
+    .btn-13arrow {
+        @include btn('text', 'disabled-light', 'mitjar', 'yes-right');
+        @include btn-center-icon();
     }
 
     .btn-14 {
-        @include btn('text', 'disabled-light', 'petit');
+        @include btn('text', 'disabled-light', 'petit', 'no');
+    }
+
+    .btn-14add {
+        @include btn('text', 'disabled-light', 'petit', 'yes-left');
+        @include btn-center-icon();
+    }
+
+    .btn-14arrow {
+        @include btn('text', 'disabled-light', 'petit', 'yes-right');
+        @include btn-center-icon();
     }
 
     .btn-15 {
-        @include btn('text', 'disabled-dark', 'mitjar');
+        @include btn('text', 'disabled-dark', 'mitjar', 'no');
+    }
+
+    .btn-15add {
+        @include btn('text', 'disabled-dark', 'mitjar', 'yes-left');
+        @include btn-center-icon();
+    }
+
+    .btn-15arrow {
+        @include btn('text', 'disabled-dark', 'mitjar', 'yes-right');
+        @include btn-center-icon();
     }
 
     .btn-16 {
-        @include btn('text', 'disabled-dark', 'petit');
+        @include btn('text', 'disabled-dark', 'petit', 'no');
+    }
+
+    .btn-16add {
+        @include btn('text', 'disabled-dark', 'petit', 'yes-left');
+        @include btn-center-icon();
+    }
+
+    .btn-16arrow {
+        @include btn('text', 'disabled-dark', 'petit', 'yes-right');
+        @include btn-center-icon();
     }
 
 
@@ -90,21 +250,26 @@ p {
 
 .btn-warning {
     .btn-17 {
-        @include btn('warning', 'active', 'mitjar');
+        @include btn('warning', 'active', 'mitjar', 'no');
+    }
+
+    .btn-17delete {
+        @include btn('warning', 'active', 'mitjar', 'yes-left');
+        @include btn-center-icon();
     }
 }
 
-.btn-fab {        
-    .btn-18 {        
-        @include btn('fab', 'active', 'mitjar');        
+.btn-fab {
+    .btn-18 {
+        @include btn('fab', 'active', 'mitjar', 'no');
     }
 
     .btn-19 {
-        @include btn('fab', 'active', 'petit');         
-    }    
+        @include btn('fab', 'active', 'petit', 'no');
+    }
 
     .btn-20 {
-        @include btn('fabestes', 'active', 'mitjar');         
-    }    
-        
+        @include btn('fabestes', 'active', 'mitjar', 'yes-left');
+        @include btn-center-icon();
+    }
 }
