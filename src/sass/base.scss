@@ -85,11 +85,26 @@ p {
         @include btn('text', 'disabled-dark', 'petit');
     }
 
-    
+
 }
 
 .btn-warning {
     .btn-17 {
         @include btn('warning', 'active', 'mitjar');
     }
+}
+
+.btn-fab {        
+    .btn-18 {        
+        @include btn('fab', 'active', 'mitjar');        
+    }
+
+    .btn-19 {
+        @include btn('fab', 'active', 'petit');         
+    }    
+
+    .btn-20 {
+        @include btn('fabestes', 'active', 'mitjar');         
+    }    
+        
 }
