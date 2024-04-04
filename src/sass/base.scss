@@ -12,6 +12,7 @@ p {
 
 .dark {
     background-color: #23354B;
+    padding: 8px 0px;
 }
 
 .btn-emplenats {
@@ -159,8 +160,7 @@ p {
         @include btn-center-icon();
     }
 
-    .btn-11 {
-        background-color: #23354B;
+    .btn-11 {       
         @include btn('text', 'dark', 'mitjar', 'no');
     }
 
@@ -174,8 +174,7 @@ p {
         @include btn-center-icon();
     }
 
-    .btn-12 {
-        background-color: #23354B;
+    .btn-12 {        
         @include btn('text', 'dark', 'petit', 'no');
     }
 
@@ -272,4 +271,58 @@ p {
         @include btn('fabestes', 'active', 'mitjar', 'yes-left');
         @include btn-center-icon();
     }
+}
+
+.btn-icona {      
+
+    .btn-21 {
+        @include btn('icona', 'light', 'medium', 'no');  
+        @include btn-center-icon();      
+    }
+    .btn-22 {
+        @include btn('icona', 'light', 'small', 'no');  
+        @include btn-center-icon();      
+    }
+    .btn-23 {
+        @include btn('icona', 'light', 'x_small', 'no'); 
+        @include btn-center-icon();       
+    }
+    .btn-24 {
+        @include btn('icona', 'disabled-light', 'medium', 'no');  
+        @include btn-center-icon();      
+    }
+    .btn-25 {
+        @include btn('icona', 'disabled-light', 'small', 'no');   
+        @include btn-center-icon();     
+    }
+    .btn-26 {
+        @include btn('icona', 'disabled-light', 'x_small', 'no'); 
+        @include btn-center-icon();      
+    }
+    .btn-27 {       
+        @include btn('icona', 'dark', 'medium', 'no'); 
+        @include btn-center-icon();      
+    }
+    .btn-28 {
+        
+        @include btn('icona', 'dark', 'small', 'no'); 
+        @include btn-center-icon();      
+    }
+    .btn-29 {        
+        @include btn('icona', 'dark', 'x_small', 'no'); 
+        @include btn-center-icon();      
+    }
+    .btn-30 {        
+        @include btn('icona', 'disabled-dark', 'medium', 'no'); 
+        @include btn-center-icon();      
+    }
+    .btn-31 {        
+        @include btn('icona', 'disabled-dark', 'small', 'no'); 
+        @include btn-center-icon();      
+    }
+    .btn-32 {       
+        @include btn('icona', 'disabled-dark', 'x_small', 'no'); 
+        @include btn-center-icon();      
+    }
+    
 }

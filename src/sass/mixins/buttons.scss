@@ -252,6 +252,81 @@
             padding: 12px 20px 12px 12px;
         }
     }
+
+    // *** ICONA ***
+    @if $type =='icona' {
+        @if $state =='light' {                         
+            color:  $grey-color-medium;            
+            cursor: pointer;
+
+            &:hover {
+                background-color: $btn-icona-hover;                 
+            }
+
+            &:active {
+                background-color: $btn-icona-pressed;              
+            }
+
+            &:focus {
+                background-color: $btn-icona-pressed;
+            }
+        }
+
+        @else if $state =='disabled-light' {
+            color: $btn-disabled-gray-font;
+        }
+
+        @else if $state =='dark' {                         
+            color: $btn-color-font;          
+            cursor: pointer;
+
+            &:hover {
+                background-color: $btn-text-dark-hover;                  
+            }
+
+            &:active {
+                background-color: $btn-text-dark-pressed;             
+            }
+
+            &:focus {
+                background-color: $btn-text-dark-pressed;  
+            }
+        }
+
+        @else if $state =='disabled-dark' {
+            color: $btn-text-disabled-dark;
+        }
+
+        @if $size =='medium' {
+            .material-symbols-outlined {
+                font-size: 24px;
+            }
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            padding: 8px;            
+        }
+
+        @else if $size =='small' {
+            .material-symbols-outlined {
+                font-size: 20px;
+            }
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            padding: 8px;            
+        }
+
+        @else if $size =='x_small' {
+            .material-symbols-outlined {
+                font-size: 16px;
+            }
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;  
+            padding: 6px;          
+        }
+    }
 }
 
 @mixin btn-center-icon() {
