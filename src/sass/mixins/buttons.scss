@@ -1,8 +1,8 @@
 @mixin btn($type, $state, $size, $icon) {
 
     // GENERAL
-    border: none; // Remove HTML button native border styling
-    background: none; //Remove HTML button native background
+    border: none;
+    background: none;
     border-radius: $btn-border-radius;
     font-family: $btn-font-family;
     font-size: $btn-font-size;
@@ -10,38 +10,38 @@
     margin: 8px;
 
     //SIZE
-    @if $size =='mitjar' {        
+    @if $size =='mitjar' {
         height: 44px;
     }
 
-    @else if $size =='petit' {        
+    @else if $size =='petit' {
         height: 36px;
     }
 
-    
+
     // ICON PADDING
     @if $size =='mitjar' and $icon =='yes-left' {
-        padding: 12px 16px 12px 12px;        
+        padding: 12px 16px 12px 12px;
     }
 
-    @else if $size =='mitjar'and $icon =='yes-right' {
-        padding: 12px 12px 12px 16px;      
+    @else if $size =='mitjar' and $icon =='yes-right' {
+        padding: 12px 12px 12px 16px;
     }
 
     @else if $size =='mitjar' and $icon =='no' {
-        padding: 12px 16px;        
+        padding: 12px 16px;
     }
 
     @if $size =='petit' and $icon =='yes-left' {
-        padding: 8px 16px 8px 12px;        
+        padding: 8px 16px 8px 12px;
     }
 
-    @else if $size =='petit'and $icon =='yes-right' {
-        padding: 8px 12px 8px 16px;      
+    @else if $size =='petit' and $icon =='yes-right' {
+        padding: 8px 12px 8px 16px;
     }
 
     @else if $size =='petit' and $icon =='no' {
-        padding: 8px 16px;        
+        padding: 8px 16px;
     }
 
     // TYPES & STATES
@@ -225,7 +225,7 @@
             background-color: $btn-main-color;
             color: $btn-color-font;
             box-shadow: $btn-shadow-4dp;
-            border-radius: 100px;            
+            border-radius: 100px;
             cursor: pointer;
 
             &:hover {
@@ -255,16 +255,16 @@
 
     // *** ICONA ***
     @if $type =='icona' {
-        @if $state =='light' {                         
-            color:  $grey-color-medium;            
+        @if $state =='light' {
+            color: $grey-color-medium;
             cursor: pointer;
 
             &:hover {
-                background-color: $btn-icona-hover;                 
+                background-color: $btn-icona-hover;
             }
 
             &:active {
-                background-color: $btn-icona-pressed;              
+                background-color: $btn-icona-pressed;
             }
 
             &:focus {
@@ -276,20 +276,20 @@
             color: $btn-disabled-gray-font;
         }
 
-        @else if $state =='dark' {                         
-            color: $btn-color-font;          
+        @else if $state =='dark' {
+            color: $btn-color-font;
             cursor: pointer;
 
             &:hover {
-                background-color: $btn-text-dark-hover;                  
+                background-color: $btn-text-dark-hover;
             }
 
             &:active {
-                background-color: $btn-text-dark-pressed;             
+                background-color: $btn-text-dark-pressed;
             }
 
             &:focus {
-                background-color: $btn-text-dark-pressed;  
+                background-color: $btn-text-dark-pressed;
             }
         }
 
@@ -301,30 +301,33 @@
             .material-symbols-outlined {
                 font-size: 24px;
             }
+
             width: 40px;
             height: 40px;
             border-radius: 50%;
-            padding: 8px;            
+            padding: 8px;
         }
 
         @else if $size =='small' {
             .material-symbols-outlined {
                 font-size: 20px;
             }
+
             width: 36px;
             height: 36px;
             border-radius: 50%;
-            padding: 8px;            
+            padding: 8px;
         }
 
         @else if $size =='x_small' {
             .material-symbols-outlined {
                 font-size: 16px;
             }
+
             width: 24px;
             height: 24px;
-            border-radius: 50%;  
-            padding: 6px;          
+            border-radius: 50%;
+            padding: 6px;
         }
     }
 }
