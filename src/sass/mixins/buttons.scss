@@ -9,6 +9,11 @@
     font-weight: $btn-font-weight;
     margin: 8px;
 
+    // ICON GENERAL SIZE
+    .material-icons-outlined {
+        font-size: 20px;
+    }
+
     //SIZE
     @if $size =='mitjar' {
         height: 44px;
@@ -46,7 +51,7 @@
 
     // TYPES & STATES
     // *** Emplenat ***
-    @if $type =='emplenat' {
+    @if $type =='emplenat' {       
         @if $state =='active' {
             background-color: $btn-main-color;
             color: $btn-color-font;
