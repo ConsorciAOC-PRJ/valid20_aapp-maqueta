@@ -197,7 +197,7 @@
         }
 
         @if $size =='mitjar' {
-            .material-symbols-outlined {
+            .material-icons-outlined {
                 font-size: 24px;
             }
 
@@ -208,7 +208,7 @@
         }
 
         @else if $size =='petit' {
-            .material-symbols-outlined {
+            .material-icons-outlined {
                 font-size: 20px;
             }
 
@@ -244,7 +244,7 @@
         }
 
         @if $size =='mitjar' {
-            .material-symbols-outlined {
+            .material-icons-outlined {
                 font-size: 24px;
                 margin: 0px 8px 0px 0px;
             }
@@ -298,7 +298,7 @@
         }
 
         @if $size =='medium' {
-            .material-symbols-outlined {
+            .material-icons-outlined {
                 font-size: 24px;
             }
 
@@ -309,7 +309,7 @@
         }
 
         @else if $size =='small' {
-            .material-symbols-outlined {
+            .material-icons-outlined {
                 font-size: 20px;
             }
 
@@ -320,7 +320,7 @@
         }
 
         @else if $size =='x_small' {
-            .material-symbols-outlined {
+            .material-icons-outlined {
                 font-size: 16px;
             }
 
