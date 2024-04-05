@@ -15,6 +15,11 @@ p {
     padding: 8px 0px;
 }
 
+.dark2 {
+    background-color: #0E5AD5;
+    padding: 8px 0px;
+}
+
 .btn-emplenats {
     .btn-1 {
         @include btn('emplenat', 'active', 'mitjar', 'no');
