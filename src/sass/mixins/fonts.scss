@@ -1,0 +1,20 @@
+@use "sass:math";
+
+// Really useful functions to convert from pixels to rems from https://medium.com/@bhargav3shah/scss-convert-pixel-values-to-rem-using-functions-f1cef575edfd
+@function stripUnit($value) {
+  // @return $value / ($value * 0 + 1);
+  @return math.div($value, $value * 0 + 1);
+}
+
+@function rem($pxValue) {
+  // @return #{stripUnit($pxValue) / stripUnit($font-base-size)}rem;
+  @return #{math.div(stripUnit($pxValue), stripUnit($font-base-size))}rem
+}
+
+@mixin font($size, $weight: normal, $line-height: $size + 6) {
+    font-size: rem($size);
+    font-weight: $weight;
+    font-family: $font-family;
+    letter-spacing: rem(0.25px);
+    line-height: rem($line-height);
+  }
