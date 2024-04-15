@@ -14,6 +14,15 @@
         font-size: 20px;
     }
 
+    // ICON ALIGN & GAP
+    @if $icon != 'no' {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+    }
+
     //SIZE
     @if $size =='mitjar' {
         height: 44px;
@@ -335,12 +344,4 @@
             padding: 6px;
         }
     }
-}
-
-@mixin btn-center-icon() {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
 }
