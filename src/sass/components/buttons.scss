@@ -1,0 +1,270 @@
+// COMPONENTS BUTTUNS (CRIDA DE MIXINS)
+
+// BUTTON EMPLENATS
+.btn-emplenats.btn-1 {
+    @include btn('emplenat', 'active', 'mitjar', 'no');
+}
+
+.btn-emplenats.btn-1add {
+    @include btn('emplenat', 'active', 'mitjar', 'yes-left');    
+}
+
+.btn-emplenats.btn-1arrow {
+    @include btn('emplenat', 'active', 'mitjar', 'yes-right');    
+}
+
+.btn-emplenats.btn-2 {
+    @include btn('emplenat', 'active', 'petit', 'no');
+}
+
+.btn-emplenats.btn-2add {
+    @include btn('emplenat', 'active', 'petit', 'yes-left');    
+}
+
+.btn-emplenats.btn-2arrow {
+    @include btn('emplenat', 'active', 'petit', 'yes-right');    
+}
+
+.btn-emplenats.btn-3 {
+    @include btn('emplenat', 'disabled', 'mitjar', 'no');
+}
+
+.btn-emplenats.btn-3add {
+    @include btn('emplenat', 'disabled', 'mitjar', 'yes-left');    
+}
+
+.btn-emplenats.btn-3arrow {
+    @include btn('emplenat', 'disabled', 'mitjar', 'yes-right');    
+}
+
+.btn-emplenats.btn-4 {
+    @include btn('emplenat', 'disabled', 'petit', 'no');
+}
+
+.btn-emplenats.btn-4add {
+    @include btn('emplenat', 'disabled', 'petit', 'yes-left');    
+}
+
+.btn-emplenats.btn-4arrow {
+    @include btn('emplenat', 'disabled', 'petit', 'yes-right');    
+}
+
+
+// BUTTON SUBRATLLAT
+.btn-subratllat.btn-5 {
+    @include btn('subratllat', 'active', 'mitjar', 'no');
+}
+
+.btn-subratllat.btn-5add {
+    @include btn('subratllat', 'active', 'mitjar', 'yes-left');    
+}
+
+.btn-subratllat.btn-5arrow {
+    @include btn('subratllat', 'active', 'mitjar', 'yes-right');    
+}
+
+.btn-subratllat.btn-6 {
+    @include btn('subratllat', 'active', 'petit', 'no');
+}
+
+.btn-subratllat.btn-6add {
+    @include btn('subratllat', 'active', 'petit', 'yes-left');    
+}
+
+.btn-subratllat.btn-6arrow {
+    @include btn('subratllat', 'active', 'petit', 'yes-right');    
+}
+
+.btn-subratllat.btn-7 {
+    @include btn('subratllat', 'disabled', 'mitjar', 'no');
+}
+
+.btn-subratllat.btn-7add {
+    @include btn('subratllat', 'disabled', 'mitjar', 'yes-left');    
+}
+
+.btn-subratllat.btn-7arrow {
+    @include btn('subratllat', 'disabled', 'mitjar', 'yes-right');    
+}
+
+.btn-subratllat.btn-8 {
+    @include btn('subratllat', 'disabled', 'petit', 'no');
+}
+
+.btn-subratllat.btn-8add {
+    @include btn('subratllat', 'disabled', 'petit', 'yes-left');    
+}
+
+.btn-subratllat.btn-8arrow {
+    @include btn('subratllat', 'disabled', 'petit', 'yes-right');    
+}
+
+
+// BUTTON TEXT
+.btn-text.btn-9 {
+    @include btn('text', 'light', 'mitjar', 'no');
+}
+
+.btn-text.btn-9add {
+    @include btn('text', 'light', 'mitjar', 'yes-left');    
+}
+
+.btn-text.btn-9arrow {
+    @include btn('text', 'light', 'mitjar', 'yes-right');    
+}
+
+.btn-text.btn-10 {
+    @include btn('text', 'light', 'petit', 'no');
+}
+
+.btn-text.btn-10add {
+    @include btn('text', 'light', 'petit', 'yes-left');    
+}
+
+.btn-text.btn-10arrow {
+    @include btn('text', 'light', 'petit', 'yes-right');    
+}
+
+.btn-text.btn-11 {
+    @include btn('text', 'dark', 'mitjar', 'no');
+}
+
+.btn-text.btn-11add {
+    @include btn('text', 'dark', 'mitjar', 'yes-left');    
+}
+
+.btn-text.btn-11arrow {
+    @include btn('text', 'dark', 'mitjar', 'yes-right');    
+}
+
+.btn-text.btn-12 {
+    @include btn('text', 'dark', 'petit', 'no');
+}
+
+.btn-text.btn-12add {
+    @include btn('text', 'dark', 'petit', 'yes-left');    
+}
+
+.btn-text.btn-12arrow {
+    @include btn('text', 'dark', 'petit', 'yes-right');    
+}
+
+.btn-text.btn-13 {
+    @include btn('text', 'disabled-light', 'mitjar', 'no');
+}
+
+.btn-text.btn-13add {
+    @include btn('text', 'disabled-light', 'mitjar', 'yes-left');    
+}
+
+.btn-text.btn-13arrow {
+    @include btn('text', 'disabled-light', 'mitjar', 'yes-right');    
+}
+
+.btn-text.btn-14 {
+    @include btn('text', 'disabled-light', 'petit', 'no');
+}
+
+.btn-text.btn-14add {
+    @include btn('text', 'disabled-light', 'petit', 'yes-left');    
+}
+
+.btn-text.btn-14arrow {
+    @include btn('text', 'disabled-light', 'petit', 'yes-right');    
+}
+
+.btn-text.btn-15 {
+    @include btn('text', 'disabled-dark', 'mitjar', 'no');
+}
+
+.btn-text.btn-15add {
+    @include btn('text', 'disabled-dark', 'mitjar', 'yes-left');    
+}
+
+.btn-text.btn-15arrow {
+    @include btn('text', 'disabled-dark', 'mitjar', 'yes-right');    
+}
+
+.btn-text.btn-16 {
+    @include btn('text', 'disabled-dark', 'petit', 'no');
+}
+
+.btn-text.btn-16add {
+    @include btn('text', 'disabled-dark', 'petit', 'yes-left');    
+}
+
+.btn-text.btn-16arrow {
+    @include btn('text', 'disabled-dark', 'petit', 'yes-right');    
+}
+
+
+// BUTTON WARNING
+.btn-warning.btn-17 {
+    @include btn('warning', 'active', 'mitjar', 'no');
+}
+
+.btn-warning.btn-17delete {
+    @include btn('warning', 'active', 'mitjar', 'yes-left');    
+}
+
+// BUTTON FAB
+.btn-fab.btn-18 {
+    @include btn('fab', 'active', 'mitjar', 'no');
+}
+
+.btn-fab.btn-19 {
+    @include btn('fab', 'active', 'petit', 'no');
+}
+
+.btn-fab.btn-20 {
+    @include btn('fabestes', 'active', 'mitjar', 'yes-left');    
+}
+
+// BUTTON ICONA
+.btn-icona.btn-21 {
+    @include btn('icona', 'light', 'medium', 'no');    
+}
+
+.btn-icona.btn-22 {
+    @include btn('icona', 'light', 'small', 'no');    
+}
+
+.btn-icona.btn-23 {
+    @include btn('icona', 'light', 'x_small', 'no');    
+}
+
+.btn-icona.btn-24 {
+    @include btn('icona', 'disabled-light', 'medium', 'no');    
+}
+
+.btn-icona.btn-25 {
+    @include btn('icona', 'disabled-light', 'small', 'no');    
+}
+
+.btn-icona.btn-26 {
+    @include btn('icona', 'disabled-light', 'x_small', 'no');    
+}
+
+.btn-icona.btn-27 {
+    @include btn('icona', 'dark', 'medium', 'no');    
+}
+
+.btn-icona.btn-28 {
+    @include btn('icona', 'dark', 'small', 'no');    
+}
+
+.btn-icona.btn-29 {
+    @include btn('icona', 'dark', 'x_small', 'no');    
+}
+
+.btn-icona.btn-30 {
+    @include btn('icona', 'disabled-dark', 'medium', 'no');    
+}
+
+.btn-icona.btn-31 {
+    @include btn('icona', 'disabled-dark', 'small', 'no');    
+}
+
+.btn-icona.btn-32 {
+    @include btn('icona', 'disabled-dark', 'x_small', 'no');    
+}
