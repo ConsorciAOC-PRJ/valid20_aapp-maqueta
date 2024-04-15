@@ -275,3 +275,8 @@
 .btn-icona.btn-32 {
     @include btn('icona', 'disabled-dark', 'x_small', 'yes');    
 }
+
+// BUTTON LOGIN
+.btn-login.btn-33 {
+    @include btn-login();    
+}
