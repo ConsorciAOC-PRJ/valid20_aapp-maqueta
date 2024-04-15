@@ -1,3 +1,4 @@
+// BUTTONS (ICON / ICON+TEXT / TEXT+ICON)
 @mixin btn($type, $state, $size, $icon) {
 
     // GENERAL
@@ -15,7 +16,7 @@
     }
 
     // ICON ALIGN & GAP
-    @if $icon != 'no' {
+    @if $icon !='no' {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -60,7 +61,7 @@
 
     // TYPES & STATES
     // *** Emplenat ***
-    @if $type =='emplenat' {       
+    @if $type =='emplenat' {
         @if $state =='active' {
             background-color: $btn-main-color;
             color: $btn-color-font;
@@ -343,5 +344,74 @@
             border-radius: 50%;
             padding: 6px;
         }
+    }
+}
+
+// LOGIN BUTTON
+@mixin btn-login() {
+
+    // GENERAL
+    border: none;
+    background: none;
+    border-radius: $btn-border-radius;
+    border: 1px solid $grey-color-divider;
+    font-family: $btn-font-family;            
+    background-color: #fff;
+    text-align: left;    
+    margin: 8px; // 8*2=16px between buttons
+    padding: 0;
+    cursor: pointer;
+
+    // CONTENT
+    .btn-login-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 16px;
+
+        .material-icons {
+            color: $grey-color-medium;
+            font-size: 24px;
+            padding: 24px 16px 24px 0;
+        }
+    }
+
+    // ICON CIRLE
+    .icon-circle {
+        background-color: #F6F7F8;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        margin: 18px 0 18px 16px;
+
+        .material-icons {
+            color: $grey-color-hight; 
+            font-size: 20px;
+            padding: 8px;
+        }
+    }    
+
+    // CONTENT H3 & P
+    .btn-login-text{
+        padding: 16px 0;
+    }
+
+    h3 {
+        margin: 0 0 4px 0;
+        color: $grey-color-hight;         
+        font-size: $btn-font-size;
+        font-weight: $btn-font-weight;
+        line-height: 20px;
+        letter-spacing: 0.25px;        
+    }
+
+    p {
+        margin: 0;        
+        color: $grey-color-medium;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0.4px;
     }
 }
