@@ -1,5 +1,12 @@
 // COMPONENTS BUTTUNS (CRIDA DE MIXINS)
 
+/* Notes:   
+            sense icona -->                 no
+            només icona (sense text) -->    yes
+            icona esquerra -->              yes-left
+            icona dreta -->                 yes-right           
+*/
+
 // BUTTON EMPLENATS
 .btn-emplenats.btn-1 {
     @include btn('emplenat', 'active', 'mitjar', 'no');
@@ -209,11 +216,11 @@
 
 // BUTTON FAB
 .btn-fab.btn-18 {
-    @include btn('fab', 'active', 'mitjar', 'no');
+    @include btn('fab', 'active', 'mitjar', 'yes');
 }
 
 .btn-fab.btn-19 {
-    @include btn('fab', 'active', 'petit', 'no');
+    @include btn('fab', 'active', 'petit', 'yes');
 }
 
 .btn-fab.btn-20 {
@@ -222,49 +229,49 @@
 
 // BUTTON ICONA
 .btn-icona.btn-21 {
-    @include btn('icona', 'light', 'medium', 'no');    
+    @include btn('icona', 'light', 'medium', 'yes');    
 }
 
 .btn-icona.btn-22 {
-    @include btn('icona', 'light', 'small', 'no');    
+    @include btn('icona', 'light', 'small', 'yes');    
 }
 
 .btn-icona.btn-23 {
-    @include btn('icona', 'light', 'x_small', 'no');    
+    @include btn('icona', 'light', 'x_small', 'yes');    
 }
 
 .btn-icona.btn-24 {
-    @include btn('icona', 'disabled-light', 'medium', 'no');    
+    @include btn('icona', 'disabled-light', 'medium', 'yes');    
 }
 
 .btn-icona.btn-25 {
-    @include btn('icona', 'disabled-light', 'small', 'no');    
+    @include btn('icona', 'disabled-light', 'small', 'yes');    
 }
 
 .btn-icona.btn-26 {
-    @include btn('icona', 'disabled-light', 'x_small', 'no');    
+    @include btn('icona', 'disabled-light', 'x_small', 'yes');    
 }
 
 .btn-icona.btn-27 {
-    @include btn('icona', 'dark', 'medium', 'no');    
+    @include btn('icona', 'dark', 'medium', 'yes');    
 }
 
 .btn-icona.btn-28 {
-    @include btn('icona', 'dark', 'small', 'no');    
+    @include btn('icona', 'dark', 'small', 'yes');    
 }
 
 .btn-icona.btn-29 {
-    @include btn('icona', 'dark', 'x_small', 'no');    
+    @include btn('icona', 'dark', 'x_small', 'yes');    
 }
 
 .btn-icona.btn-30 {
-    @include btn('icona', 'disabled-dark', 'medium', 'no');    
+    @include btn('icona', 'disabled-dark', 'medium', 'yes');    
 }
 
 .btn-icona.btn-31 {
-    @include btn('icona', 'disabled-dark', 'small', 'no');    
+    @include btn('icona', 'disabled-dark', 'small', 'yes');    
 }
 
 .btn-icona.btn-32 {
-    @include btn('icona', 'disabled-dark', 'x_small', 'no');    
+    @include btn('icona', 'disabled-dark', 'x_small', 'yes');    
 }
