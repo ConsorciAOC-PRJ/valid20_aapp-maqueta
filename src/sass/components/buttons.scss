@@ -4,7 +4,7 @@
 
 1. $type:   emplenat / subratllat / text / warning / fab / fabestes / icona
 2. $state:  active / disabled / light / dark / disabled-light / disabled-dark / 
-3. $size:   mitjar / petit / medium / small / x_small
+3. $size:   medium / small / x_small
 4. $icon:   no / yes / yes-left / yes-right
 
 Notes:
@@ -16,222 +16,222 @@ Notes:
 
 // BUTTON EMPLENATS
 .btn-emplenats.btn-1 {
-    @include btn('emplenat', 'active', 'mitjar', 'no');
+    @include btn('emplenat', 'active', 'medium', 'no');
 }
 
 .btn-emplenats.btn-1add {
-    @include btn('emplenat', 'active', 'mitjar', 'yes-left');    
+    @include btn('emplenat', 'active', 'medium', 'yes-left');    
 }
 
 .btn-emplenats.btn-1arrow {
-    @include btn('emplenat', 'active', 'mitjar', 'yes-right');    
+    @include btn('emplenat', 'active', 'medium', 'yes-right');    
 }
 
 .btn-emplenats.btn-2 {
-    @include btn('emplenat', 'active', 'petit', 'no');
+    @include btn('emplenat', 'active', 'small', 'no');
 }
 
 .btn-emplenats.btn-2add {
-    @include btn('emplenat', 'active', 'petit', 'yes-left');    
+    @include btn('emplenat', 'active', 'small', 'yes-left');    
 }
 
 .btn-emplenats.btn-2arrow {
-    @include btn('emplenat', 'active', 'petit', 'yes-right');    
+    @include btn('emplenat', 'active', 'small', 'yes-right');    
 }
 
 .btn-emplenats.btn-3 {
-    @include btn('emplenat', 'disabled', 'mitjar', 'no');
+    @include btn('emplenat', 'disabled', 'medium', 'no');
 }
 
 .btn-emplenats.btn-3add {
-    @include btn('emplenat', 'disabled', 'mitjar', 'yes-left');    
+    @include btn('emplenat', 'disabled', 'medium', 'yes-left');    
 }
 
 .btn-emplenats.btn-3arrow {
-    @include btn('emplenat', 'disabled', 'mitjar', 'yes-right');    
+    @include btn('emplenat', 'disabled', 'medium', 'yes-right');    
 }
 
 .btn-emplenats.btn-4 {
-    @include btn('emplenat', 'disabled', 'petit', 'no');
+    @include btn('emplenat', 'disabled', 'small', 'no');
 }
 
 .btn-emplenats.btn-4add {
-    @include btn('emplenat', 'disabled', 'petit', 'yes-left');    
+    @include btn('emplenat', 'disabled', 'small', 'yes-left');    
 }
 
 .btn-emplenats.btn-4arrow {
-    @include btn('emplenat', 'disabled', 'petit', 'yes-right');    
+    @include btn('emplenat', 'disabled', 'small', 'yes-right');    
 }
 
 
 // BUTTON SUBRATLLAT
 .btn-subratllat.btn-5 {
-    @include btn('subratllat', 'active', 'mitjar', 'no');
+    @include btn('subratllat', 'active', 'medium', 'no');
 }
 
 .btn-subratllat.btn-5add {
-    @include btn('subratllat', 'active', 'mitjar', 'yes-left');    
+    @include btn('subratllat', 'active', 'medium', 'yes-left');    
 }
 
 .btn-subratllat.btn-5arrow {
-    @include btn('subratllat', 'active', 'mitjar', 'yes-right');    
+    @include btn('subratllat', 'active', 'medium', 'yes-right');    
 }
 
 .btn-subratllat.btn-6 {
-    @include btn('subratllat', 'active', 'petit', 'no');
+    @include btn('subratllat', 'active', 'small', 'no');
 }
 
 .btn-subratllat.btn-6add {
-    @include btn('subratllat', 'active', 'petit', 'yes-left');    
+    @include btn('subratllat', 'active', 'small', 'yes-left');    
 }
 
 .btn-subratllat.btn-6arrow {
-    @include btn('subratllat', 'active', 'petit', 'yes-right');    
+    @include btn('subratllat', 'active', 'small', 'yes-right');    
 }
 
 .btn-subratllat.btn-7 {
-    @include btn('subratllat', 'disabled', 'mitjar', 'no');
+    @include btn('subratllat', 'disabled', 'medium', 'no');
 }
 
 .btn-subratllat.btn-7add {
-    @include btn('subratllat', 'disabled', 'mitjar', 'yes-left');    
+    @include btn('subratllat', 'disabled', 'medium', 'yes-left');    
 }
 
 .btn-subratllat.btn-7arrow {
-    @include btn('subratllat', 'disabled', 'mitjar', 'yes-right');    
+    @include btn('subratllat', 'disabled', 'medium', 'yes-right');    
 }
 
 .btn-subratllat.btn-8 {
-    @include btn('subratllat', 'disabled', 'petit', 'no');
+    @include btn('subratllat', 'disabled', 'small', 'no');
 }
 
 .btn-subratllat.btn-8add {
-    @include btn('subratllat', 'disabled', 'petit', 'yes-left');    
+    @include btn('subratllat', 'disabled', 'small', 'yes-left');    
 }
 
 .btn-subratllat.btn-8arrow {
-    @include btn('subratllat', 'disabled', 'petit', 'yes-right');    
+    @include btn('subratllat', 'disabled', 'small', 'yes-right');    
 }
 
 
 // BUTTON TEXT
 .btn-text.btn-9 {
-    @include btn('text', 'light', 'mitjar', 'no');
+    @include btn('text', 'light', 'medium', 'no');
 }
 
 .btn-text.btn-9add {
-    @include btn('text', 'light', 'mitjar', 'yes-left');    
+    @include btn('text', 'light', 'medium', 'yes-left');    
 }
 
 .btn-text.btn-9arrow {
-    @include btn('text', 'light', 'mitjar', 'yes-right');    
+    @include btn('text', 'light', 'medium', 'yes-right');    
 }
 
 .btn-text.btn-10 {
-    @include btn('text', 'light', 'petit', 'no');
+    @include btn('text', 'light', 'small', 'no');
 }
 
 .btn-text.btn-10add {
-    @include btn('text', 'light', 'petit', 'yes-left');    
+    @include btn('text', 'light', 'small', 'yes-left');    
 }
 
 .btn-text.btn-10arrow {
-    @include btn('text', 'light', 'petit', 'yes-right');    
+    @include btn('text', 'light', 'small', 'yes-right');    
 }
 
 .btn-text.btn-11 {
-    @include btn('text', 'dark', 'mitjar', 'no');
+    @include btn('text', 'dark', 'medium', 'no');
 }
 
 .btn-text.btn-11add {
-    @include btn('text', 'dark', 'mitjar', 'yes-left');    
+    @include btn('text', 'dark', 'medium', 'yes-left');    
 }
 
 .btn-text.btn-11arrow {
-    @include btn('text', 'dark', 'mitjar', 'yes-right');    
+    @include btn('text', 'dark', 'medium', 'yes-right');    
 }
 
 .btn-text.btn-12 {
-    @include btn('text', 'dark', 'petit', 'no');
+    @include btn('text', 'dark', 'small', 'no');
 }
 
 .btn-text.btn-12add {
-    @include btn('text', 'dark', 'petit', 'yes-left');    
+    @include btn('text', 'dark', 'small', 'yes-left');    
 }
 
 .btn-text.btn-12arrow {
-    @include btn('text', 'dark', 'petit', 'yes-right');    
+    @include btn('text', 'dark', 'small', 'yes-right');    
 }
 
 .btn-text.btn-13 {
-    @include btn('text', 'disabled-light', 'mitjar', 'no');
+    @include btn('text', 'disabled-light', 'medium', 'no');
 }
 
 .btn-text.btn-13add {
-    @include btn('text', 'disabled-light', 'mitjar', 'yes-left');    
+    @include btn('text', 'disabled-light', 'medium', 'yes-left');    
 }
 
 .btn-text.btn-13arrow {
-    @include btn('text', 'disabled-light', 'mitjar', 'yes-right');    
+    @include btn('text', 'disabled-light', 'medium', 'yes-right');    
 }
 
 .btn-text.btn-14 {
-    @include btn('text', 'disabled-light', 'petit', 'no');
+    @include btn('text', 'disabled-light', 'small', 'no');
 }
 
 .btn-text.btn-14add {
-    @include btn('text', 'disabled-light', 'petit', 'yes-left');    
+    @include btn('text', 'disabled-light', 'small', 'yes-left');    
 }
 
 .btn-text.btn-14arrow {
-    @include btn('text', 'disabled-light', 'petit', 'yes-right');    
+    @include btn('text', 'disabled-light', 'small', 'yes-right');    
 }
 
 .btn-text.btn-15 {
-    @include btn('text', 'disabled-dark', 'mitjar', 'no');
+    @include btn('text', 'disabled-dark', 'medium', 'no');
 }
 
 .btn-text.btn-15add {
-    @include btn('text', 'disabled-dark', 'mitjar', 'yes-left');    
+    @include btn('text', 'disabled-dark', 'medium', 'yes-left');    
 }
 
 .btn-text.btn-15arrow {
-    @include btn('text', 'disabled-dark', 'mitjar', 'yes-right');    
+    @include btn('text', 'disabled-dark', 'medium', 'yes-right');    
 }
 
 .btn-text.btn-16 {
-    @include btn('text', 'disabled-dark', 'petit', 'no');
+    @include btn('text', 'disabled-dark', 'small', 'no');
 }
 
 .btn-text.btn-16add {
-    @include btn('text', 'disabled-dark', 'petit', 'yes-left');    
+    @include btn('text', 'disabled-dark', 'small', 'yes-left');    
 }
 
 .btn-text.btn-16arrow {
-    @include btn('text', 'disabled-dark', 'petit', 'yes-right');    
+    @include btn('text', 'disabled-dark', 'small', 'yes-right');    
 }
 
 
 // BUTTON WARNING
 .btn-warning.btn-17 {
-    @include btn('warning', 'active', 'mitjar', 'no');
+    @include btn('warning', 'active', 'medium', 'no');
 }
 
 .btn-warning.btn-17delete {
-    @include btn('warning', 'active', 'mitjar', 'yes-left');    
+    @include btn('warning', 'active', 'medium', 'yes-left');    
 }
 
 // BUTTON FAB
 .btn-fab.btn-18 {
-    @include btn('fab', 'active', 'mitjar', 'yes');
+    @include btn('fab', 'active', 'medium', 'yes');
 }
 
 .btn-fab.btn-19 {
-    @include btn('fab', 'active', 'petit', 'yes');
+    @include btn('fab', 'active', 'small', 'yes');
 }
 
 .btn-fab.btn-20 {
-    @include btn('fabestes', 'active', 'mitjar', 'yes-left');    
+    @include btn('fabestes', 'active', 'medium', 'yes-left');    
 }
 
 // BUTTON ICONA

@@ -25,37 +25,37 @@
     }
 
     //SIZE
-    @if $size =='mitjar' {
+    @if $size =='medium' {
         height: rem(44px);
     }
 
-    @else if $size =='petit' {
+    @else if $size =='small' {
         height: rem(36px);
     }
 
 
     // ICON PADDING
-    @if $size =='mitjar' and $icon =='yes-left' {
+    @if $size =='medium' and $icon =='yes-left' {
         padding: rem(12px) rem(16px) rem(12px) rem(12px);
     }
 
-    @else if $size =='mitjar' and $icon =='yes-right' {
+    @else if $size =='medium' and $icon =='yes-right' {
         padding: rem(12px) rem(12px) rem(12px) rem(16px);
     }
 
-    @else if $size =='mitjar' and $icon =='no' {
+    @else if $size =='medium' and $icon =='no' {
         padding: rem(12px) rem(16px);
     }
 
-    @if $size =='petit' and $icon =='yes-left' {
+    @if $size =='small' and $icon =='yes-left' {
         padding: rem(8px) rem(16px) rem(8px) rem(12px);
     }
 
-    @else if $size =='petit' and $icon =='yes-right' {
+    @else if $size =='small' and $icon =='yes-right' {
         padding: rem(8px) rem(12px) rem(8px) rem(16px);
     }
 
-    @else if $size =='petit' and $icon =='no' {
+    @else if $size =='small' and $icon =='no' {
         padding: rem(8px) rem(16px);
     }
 
@@ -211,7 +211,7 @@
             }
         }
 
-        @if $size =='mitjar' {
+        @if $size =='medium' {
             .material-icons-outlined {
                 font-size: rem(24px);
             }
@@ -222,7 +222,7 @@
             padding: rem(16px);
         }
 
-        @else if $size =='petit' {
+        @else if $size =='small' {
             .material-icons-outlined {
                 font-size: rem(20px);
             }
@@ -258,7 +258,7 @@
             }
         }
 
-        @if $size =='mitjar' {
+        @if $size =='medium' {
             .material-icons-outlined {
                 font-size: rem(24px);
                 margin: 0 rem(8px) 0 0;
