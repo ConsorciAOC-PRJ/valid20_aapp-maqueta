@@ -1,10 +1,17 @@
 // COMPONENTS BUTTUNS (CRIDA DE MIXINS)
 
-/* Notes:   
-            sense icona -->                 no
-            només icona (sense text) -->    yes
-            icona esquerra -->              yes-left
-            icona dreta -->                 yes-right           
+/* PARÀMETRES DEL MIXIN:    btn(1,2,3,4){}
+
+1. $type:   emplenat / subratllat / text / warning / fab / fabestes / icona
+2. $state:  active / disabled / light / dark / disabled-light / disabled-dark / 
+3. $size:   mitjar / petit / medium / small / x_small
+4. $icon:   no / yes / yes-left / yes-right
+
+Notes:
+        sense icona -->                 no
+        només icona (sense text) -->    yes
+        icona esquerra -->              yes-left
+        icona dreta -->                 yes-right           
 */
 
 // BUTTON EMPLENATS
