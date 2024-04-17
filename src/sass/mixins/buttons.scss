@@ -8,7 +8,10 @@
     font-family: $btn-font-family;
     font-size: $btn-font-size;
     font-weight: $btn-font-weight;
+    line-height: rem(20px);
+    letter-spacing: rem(0.5px);
     margin: rem(8px);
+    
 
     // ICON GENERAL SIZE
     .material-icons-outlined {
@@ -355,9 +358,9 @@
     background: none;
     border-radius: $btn-border-radius;
     border: rem(1px) solid $grey-color-divider;
-    font-family: $btn-font-family;            
+    font-family: $btn-font-family;
     background-color: #fff;
-    text-align: left;    
+    text-align: left;
     margin: rem(8px); // 8*2=16px between buttons
     padding: 0;
     cursor: pointer;
@@ -387,28 +390,28 @@
         margin: rem(18px) 0 rem(18px) rem(16px);
 
         .material-icons {
-            color: $grey-color-hight; 
+            color: $grey-color-hight;
             font-size: rem(20px);
             padding: rem(8px);
         }
-    }    
+    }
 
     // CONTENT H3 & P
-    .btn-login-text{
+    .btn-login-text {
         padding: rem(16px) 0;
     }
 
     h3 {
         margin: 0 0 rem(4px) 0;
-        color: $grey-color-hight;         
+        color: $grey-color-hight;
         font-size: $btn-font-size;
         font-weight: $btn-font-weight;
         line-height: rem(20px);
-        letter-spacing: rem(0.25px);        
+        letter-spacing: rem(0.25px);
     }
 
     p {
-        margin: 0;        
+        margin: 0;
         color: $grey-color-medium;
         font-size: rem(13px);
         font-weight: 400;
