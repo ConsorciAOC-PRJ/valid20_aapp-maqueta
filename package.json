@@ -1,0 +1,14 @@
+{
+  "name": "e-notum",
+  "version": "1.0.0",
+  "description": "e-notum website.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ConsorciAOC-PRJ/enotum_web-ciutada-maqueta.git"
+  },
+  "author": "Alejandro Suárez Domínguez <alejandro.suarez@tothomweb.com> (https://www.tothomweb.com)",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
