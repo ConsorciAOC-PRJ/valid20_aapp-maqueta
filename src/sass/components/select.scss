@@ -1,0 +1,72 @@
+.custom-select {
+    .combo {
+      display: block;
+      position: relative;
+    }
+
+    .combo::after {
+      font-family: "Material Icons Outlined";
+      font-size: 16px;
+      content: "arrow_drop_down";
+      color: $black;
+      position: absolute;
+      right: 16px;
+      top: 35%;
+      pointer-events: none;
+      padding-right: 0.2rem;
+    }
+
+    .combo-input {
+      background-color: $white;
+      border: 1px solid $grey-color-hight;
+      border-radius: $input-radius 0px 0px $input-radius;
+      display: block;
+      font-size: 1em;
+      padding: rem(12px) rem(40px) rem(12px) rem(16px);
+      text-align: left;
+    }
+
+    .combo-input:focus-visible {
+      border-color: $info;
+      box-shadow: 0 0 4px 2px $info;
+      outline: 4px solid transparent;
+    }
+
+    .combo-label {
+      display: block;
+      font-size: 20px;
+      font-weight: 100;
+      margin-bottom: 0.25em;
+    }
+
+    .combo-menu {
+      background-color: $white;
+      border: 1px solid $grey-color-hight;
+      border-top: none;
+      display: none;
+      left: 0;
+      position: absolute;
+      top: 100%;
+      width: 100%;
+      box-sizing: border-box;
+      z-index: 100;
+    }
+
+    .open .combo-menu {
+      display: block;
+    }
+
+    .combo-option {
+      padding: 10px 12px 12px;
+    }
+
+    .combo-option.option-current .option-text {
+        color: $primary-color-main;
+        border-bottom: 2px solid $primary-color-main;
+    }
+
+    .combo-option[aria-selected="true"] {
+      padding-right: 30px;
+      position: relative;
+    }
+}

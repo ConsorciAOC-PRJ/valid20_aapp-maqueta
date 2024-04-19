@@ -1,0 +1,47 @@
+input.field, select.field {
+    border: 1px solid $grey-color-hight;
+    border-radius: 2px;
+    padding: rem(12px);
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+// Border color change for error notification
+input[aria-invalid="true"] {
+    border-color: $error-color-600;
+}
+
+// Custom select + input component
+.select-input {
+    width: 100%;
+    display: flex;
+    padding: 0.5rem 0rem 1rem 0rem;
+
+    input {
+        width: 100%;
+        border-left: none;
+        border-radius: 0px $input-radius $input-radius 0px;
+
+        &::placeholder {
+            text-align: left;
+            @include font(15px, 400, 20px);
+            color: $grey-color-medium;
+        }
+    }
+
+    select {
+        width: 5rem;
+    }
+
+    .select-text-field {
+        width: 100%;
+    }
+}
+
+// Restore fieldset browser styles
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
