@@ -1,0 +1,62 @@
+.display-1 {
+    @include font(44px, 700, 52px, -0.5px);
+}
+
+.display-2 {
+    @include font(36px, 700, 44px, -0.5px);
+}
+
+.display-3 {
+    @include font(28px, 700, 36px, 0);
+}
+
+.headline {
+    @include font(25px, 700, 32px, 0.25px);
+}
+
+.title {
+    @include font(21px, 600, 28px, 0);
+}
+
+.subheading2 {
+    @include font(17px, 500, 24px, 0);
+}
+
+.subheading1 {
+    @include font(15px, 500, 20px, 0.25px);
+}
+
+.text-p-17 {
+    @include font(17px, 400, 28px, 0.1px);
+}
+
+.text-p-15 {
+    @include font(15px, 400, 22px, 0.25px);
+}
+
+.text-p-13 {
+    @include font(13px, 400, 16px, 0.4px);
+}
+
+.p-strong {
+    font-weight: $p-strong;
+}
+
+.p-strong-light {
+    font-weight: $p-strong-light;
+}
+
+.label-btnLink {
+    @include font(15px, 500, 20px, 0.5px);
+}
+
+.label-input {
+    @include font(15px, 400, 20px, 0.25px);
+}
+
+.label-overline {
+    @include font(11px, 500, 12px, 1.5px);
+}
+
+// LINKS
+a {}

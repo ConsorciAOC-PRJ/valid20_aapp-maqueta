@@ -9,10 +9,10 @@
   @return #{math.div(stripUnit($pxValue), stripUnit($font-base-size))}rem
 }
 
-@mixin font($size, $weight: normal, $line-height: $size + 6) {
+@mixin font($size, $weight: normal, $line-height: $size + 6, $letter-spacing: 0) {
     font-size: rem($size);
     font-weight: $weight;
     font-family: $font-family;
-    letter-spacing: rem(0.25px);
+    letter-spacing: rem($letter-spacing);
     line-height: rem($line-height);
   }
