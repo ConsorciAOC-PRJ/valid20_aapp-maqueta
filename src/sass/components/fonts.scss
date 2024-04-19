@@ -7,7 +7,7 @@
 }
 
 .display-3 {
-    @include font(28px, 700, 36px, 0);
+    @include font(28px, 700, 36px);
 }
 
 .headline {
@@ -15,14 +15,14 @@
 }
 
 .title {
-    @include font(21px, 600, 28px, 0);
+    @include font(21px, 600, 28px);
 }
 
-.subheading2 {
-    @include font(17px, 500, 24px, 0);
+.subheading-2 {
+    @include font(17px, 500, 24px);
 }
 
-.subheading1 {
+.subheading-1 {
     @include font(15px, 500, 20px, 0.25px);
 }
 
@@ -38,12 +38,14 @@
     @include font(13px, 400, 16px, 0.4px);
 }
 
-.p-strong {
-    font-weight: $p-strong;
+// For p-17 & p-15
+.p-strong-superHight {
+    font-weight: $strong-superHight;
 }
 
-.p-strong-light {
-    font-weight: $p-strong-light;
+// Only for p-13
+.p-strong-hight {
+    font-weight: $strong-hight;
 }
 
 .label-btnLink {
@@ -59,4 +61,37 @@
 }
 
 // LINKS
-a {}
+
+.link-intern-normal{
+    @include font(15px, 500, 20px, 0.5px);    
+    color: $primary-color-main; 
+    text-decoration: none;   
+}
+
+.link-intern-underline{
+    @include font(15px, 500, 20px, 0.25px);    
+    color: $grey-color-medium;
+    &:hover {
+        color: $grey-color-hight;        
+    }    
+}
+
+
+
+
+
+// no @include, ja que pot variar el tipus de paràgraf 
+.link-mail{
+    font-weight: $strong-hight;
+    color: $grey-color-medium;    
+    &:hover {
+        color: $grey-color-hight;        
+    }
+}
+
+.link-integrat{
+    font-weight: $strong-medium;
+    color: $primary-color-main;    
+}
+
+
