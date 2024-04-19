@@ -2,22 +2,14 @@ body {
     background-color: #F7F9FC;
 }
 
+// TEXT SELECTION
 body *::selection {
     color: $white;
     background: $primary-color-main; // WebKit/Blink Browsers
 }
-
 body *::-moz-selection {
     color: $white;
     background: $primary-color-main; //Gecko Browsers
-}
-
-h1 {
-    color: red;
-}
-
-p {
-    color: blue;
 }
 
 .dark {
