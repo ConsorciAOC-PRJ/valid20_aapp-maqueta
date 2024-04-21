@@ -14,46 +14,95 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
 </head>
 
-<body>
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
+<body class="eacat-login">
+    <div class="container-fluid g-0">
+        <div class="row g-0">
+            <div class="col-12 col-lg-6">
                 <header>
-                    <!-- Logo y claim -->
-                    <img src="assets/logo-eacat.svg" alt="">
-                    <p>L’Extranet de les administracions públiques catalanes</p>
+                    <!-- Logo and claim -->
+                    <img src="assets/logo-eacat.svg" alt="EACAT">
+                    <p class="text-p-15 grey-color-hight">L’Extranet de les administracions públiques catalanes</p>
                 </header>
-                <main>
-                    <!-- Título y botón -->
-                    <h1>Identifica’t amb el teu certificat digital</h1>
-                    <p>Accedeix de manera ràpida i còmoda amb certificat.</p>
-                    <button class="btn-emplenats btn-1">Accedir amb certificat digital</button>
-                    <!-- Otros botones y acceso -->
-                    <div class="dark3 login-column">
-                        <div class="inside">
+            </div>
+        </div>
+        <div class="row g-0">
+            <!-- <main> -->
+            <div class="col-12 col-lg-6 left-col">
+                <!-- Title and main button -->
+                <h1 class="display-1">Identifica’t amb el teu certificat digital</h1>
+                <p class="text-p-17 grey-color-medium">Accedeix de manera ràpida i còmoda amb certificat.</p>
+                <button class="btn-emplenats btn-1">Accedir amb certificat digital</button>
+            </div>
+            <div class="col-12 col-lg-6 right-col">
+                <!-- Login buttons and access -->
+                <div class="login-column">
+                    <div class="inside">
+                        <h2>Altres sistemes d’identificació</h2>
+                        <div class="login-buttons">
                             <button type="button" class="btn-login btn-33">
                                 <div class="btn-login-content">
-                                    <div class="icon-circle">
-                                        <span class="material-icons">lock</span>
+                                    <div class="btn-first">
+                                        <div class="icon-circle">
+                                            <span class="material-icons" aria-hidden="true">lock</span>
+                                        </div>
+                                        <div class="btn-login-text">
+                                            <span class="btn-title">EACAT</span>
+                                            <span class="btn-description">Identificació amb usuari i contrasenya</span>
+                                        </div>
                                     </div>
-                                    <div class="btn-login-text">
-                                        <h3>EACAT</h3>
-                                        <p>Identificació amb usuari i contrasenya</p>
+                                    <span class="material-icons" aria-hidden="true">navigate_next</span>
+                                </div>
+                            </button>
+                            <button type="button" class="btn-login btn-33">
+                                <div class="btn-login-content">
+                                    <div class="btn-first">
+                                        <div class="icon-circle">
+                                            <span class="material-icons" aria-hidden="true">lock</span>
+                                        </div>
+                                        <div class="btn-login-text">
+                                            <span class="btn-title">GICAR</span>
+                                            <span class="btn-description">Identificació amb usuari i contrasenya</span>
+                                        </div>
                                     </div>
-                                    <span class="material-icons">navigate_next</span>
+                                    <span class="material-icons" aria-hidden="true">navigate_next</span>
+                                </div>
+                            </button>
+                            <button type="button" class="btn-login btn-33">
+                                <div class="btn-login-content">
+                                    <div class="btn-first">
+                                        <div class="icon-circle">
+                                            <span class="material-icons" aria-hidden="true">lock</span>
+                                        </div>
+                                        <div class="btn-login-text">
+                                            <span class="btn-title">idCAT Mòbil</span>
+                                            <span class="btn-description">Identificació a través del mòbil</span>
+                                        </div>
+                                    </div>
+                                    <span class="material-icons" aria-hidden="true">navigate_next</span>
                                 </div>
                             </button>
                         </div>
                     </div>
-                </main>
+                </div>
             </div>
+            <!-- </main> -->
         </div>
     </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
+    <div class="container-fluid g-0">
+        <div class="row g-0">
+            <div class="col-12 col-lg-6">
                 <footer>
-                    <!-- Logos y enlaces de aviso legal -->
+                    <!-- Logos and legal links -->
+                    <div class="logos">
+                        <img src="assets/logo-aoc.svg" alt="Administració Oberta de Catalunya">
+                        <img src="assets/logo-ue.svg" alt="Cofinançat per la Unió Europea">
+                    </div>
+                    <div class="legal-links">
+                        <ul>
+                            <li><a class="text-p-13 no-underline" href="#">Ajuda</a></li>
+                            <li><a class="text-p-13 no-underline" href="#">Avís legal</a></li>
+                        </ul>
+                    </div>
                 </footer>
             </div>
         </div>

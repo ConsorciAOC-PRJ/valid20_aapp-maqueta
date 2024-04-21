@@ -1,0 +1,15 @@
+.eacat-login {
+
+    .left-col {
+        margin-bottom: rem(24px);
+
+        @media #{$screen-lg} {
+            padding: rem(40px) rem(152px) 0 rem(112px);
+            margin-bottom: rem(100px);
+        }
+
+        h1 {
+            margin: 0;
+        }
+    }
+}

@@ -1,5 +1,6 @@
 // @import variables
 @import './vars/vars.scss';
+@import './vars/breakpoints.scss';
 
 // @import mixins
 @import './mixins/buttons.scss';
@@ -39,9 +40,12 @@
 @import './components/forms.scss';
 @import './components/select.scss';
 @import './components/login-column.scss';
+@import './components/footer.scss';
+@import './components/header.scss';
 
 
 // @import custom styles for pages
+@import './pages/eacat-login.scss';
 
 // @import basic styles
 @import './base.scss';

@@ -1,10 +1,43 @@
 .login-column {
-    position: fixed;
-    top: 0;
-    right: 0;
+    position: relative;
     height: 100%;
-    width: 50%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: $white;
+
+    @media #{$screen-lg} {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 50%;
+        background-color: $grey-04;
+    }
+
+    h2 {
+        margin: 0;
+        margin-bottom: rem(8px);
+        @include font(15px, 500, 20px, 0.25px); 
+
+        @media #{$screen-lg} {
+            @include font(25px, 700, 32px, 0.25px);
+            color: $white;
+            text-align: center;
+        }
+
+    }
+
+    .inside {
+        width: 100%;
+
+        @media #{$screen-lg} {
+            width: auto;
+        }
+    }
+
+    .login-buttons {
+        display: flex;
+        flex-direction: column;
+    }
 }

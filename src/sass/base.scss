@@ -1,5 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
-    background-color: #F7F9FC;
+    margin: 0;
 }
 
 // TEXT SELECTION
@@ -36,4 +44,12 @@ body *::-moz-selection {
     overflow: hidden;
     clip: rect(0,0,0,0);
     border: 0;
+}
+
+.row {
+    padding: 0 rem(20px);
+
+    @media #{$screen-lg} {
+        padding: 0;
+    }
 }

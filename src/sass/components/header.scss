@@ -1,0 +1,12 @@
+header {
+    padding: rem(32px) 0 rem(24px) 0;
+
+    @media #{$screen-lg} {
+        padding: rem(160px) rem(152px) rem(40px) rem(112px);
+    }
+
+    p {
+        margin: 0;
+        margin-top: 12px;
+    }
+}

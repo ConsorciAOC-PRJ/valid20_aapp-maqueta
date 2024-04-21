@@ -60,6 +60,15 @@
     @include font(11px, 500, 12px, 1.5px);
 }
 
+// COLORS AND VARIATIONS
+.grey-color-hight {
+    color: $grey-color-hight;
+}
+
+.grey-color-medium {
+    color: $grey-color-medium;
+}
+
 // LINKS
 
 .link-intern-normal{
@@ -76,9 +85,9 @@
     }    
 }
 
-
-
-
+.no-underline {
+    text-decoration: none;
+}
 
 // no @include, ja que pot variar el tipus de paràgraf 
 .link-mail{

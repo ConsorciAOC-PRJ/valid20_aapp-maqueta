@@ -1,0 +1,49 @@
+footer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: rem(18px) rem(32px) rem(18px) rem(32px);
+    margin-top: rem(24px);
+    gap: rem(24px);
+    background-color: $white;
+
+    @media #{$screen-lg} {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .logos {
+        display: flex;
+        align-items: center;
+        gap: rem(32px);
+    }
+
+    .legal-links ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+
+        li:first-of-type {
+            position: relative;
+        }
+
+        li:first-of-type::after {
+            content: ".";
+            position: absolute;
+            right: -0.5rem;
+            line-height: rem(15px);
+        }
+    }
+
+    @media #{$screen-lg} {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 50%;
+    }
+}
