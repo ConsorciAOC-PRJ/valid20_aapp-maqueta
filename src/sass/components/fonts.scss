@@ -38,6 +38,10 @@
     @include font(13px, 400, 16px, 0.4px);
 }
 
+.text-error {
+    @include font(15px, 400, 20px, 0.25px);
+}
+
 // For p-17 & p-15
 .p-strong-superHight {
     font-weight: $strong-superHight;
@@ -70,7 +74,6 @@
 }
 
 // LINKS
-
 .link-intern-normal{
     @include font(15px, 500, 20px, 0.5px);    
     color: $primary-color-main; 
