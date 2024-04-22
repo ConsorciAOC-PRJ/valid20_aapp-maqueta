@@ -85,6 +85,32 @@
     }    
 }
 
+.link-extern-normal{
+    @include font(15px, 500, 20px, 0.5px);    
+    color: $primary-color-main; 
+    text-decoration: none;   
+    &:hover {
+        text-decoration: underline;       
+    } 
+}
+
+.link-extern-underline{
+    @include font(15px, 500, 20px, 0.25px);    
+    color: $grey-color-medium;
+    &:hover {
+        color: $grey-color-hight;        
+    }    
+}
+
+.link-document{
+    @include font(15px, 500, 20px, 0.25px); 
+    color: $primary-color-main; 
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;       
+    } 
+}
+
 .no-underline {
     text-decoration: none;
 }
