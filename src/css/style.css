@@ -8283,7 +8283,6 @@ input[aria-invalid=true] {
 .select-input {
   width: 100%;
   display: flex;
-  padding: 0.5rem 0rem 1rem 0rem;
 }
 .select-input input {
   width: 100%;
@@ -8305,6 +8304,9 @@ input[aria-invalid=true] {
 }
 .select-input .select-text-field {
   width: 100%;
+}
+.select-input .select-text-field input {
+  border-radius: 0px 6px 6px 0px;
 }
 
 fieldset {
@@ -8330,9 +8332,10 @@ fieldset {
 }
 .custom-select .combo-input {
   background-color: #fff;
-  border: 1px solid #23354B;
+  border: 1px solid rgba(35, 53, 75, 0.72);
   border-radius: 6px 0px 0px 6px;
   display: block;
+  font-family: "Work Sans", sans-serif;
   font-size: 1em;
   padding: 0.6666666667rem 2.2222222222rem 0.6666666667rem 0.8888888889rem;
   text-align: left;
