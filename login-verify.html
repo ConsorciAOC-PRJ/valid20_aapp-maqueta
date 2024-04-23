@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCSS EACAT </title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body class="eacat-login">
+    <div class="container-fluid g-0">
+        <div class="row g-0">
+            <div class="col-12 col-lg-6">
+                <header>
+                    <!-- Logo and claim -->
+                    <img src="assets/logo-eacat.svg" alt="EACAT">
+                    <p class="text-p-15 grey-color-hight">L’Extranet de les administracions públiques catalanes</p>
+                </header>
+            </div>
+        </div>
+        <div class="row g-0">
+            <!-- <main> -->
+            <div class="col-12 col-lg-6 left-col">
+                <!-- Title -->
+                <h1 class="display-1">S'ha enviat un SMS amb el codi al teu mòbil</h1>                
+            </div>
+            <div class="col-12 col-lg-6 right-col">
+                <!-- Login buttons and access -->
+                <div class="form-column">
+                    <div class="inside">
+                        <h2 class="headline">Verifica el codi</h2>
+                        <form>
+                            <fieldset aria-labelledby="id-document">
+                                <legend class="subheading-1 p-0" id="id-document">Codi de verificació</legend>                                        
+                                    <div class="select-text-field">
+                                        <label for="number-id-document" class="sr-only">Codi de verificació</label>
+                                        <input class="field text-p-16" type="text" id="number-verification">                                        
+                                    </div>                                
+                            </fieldset>       
+                            
+                            <button class="btn-emplenats btn-1" type="submit">Accedir</button>
+                            <p class="text-p-13">El SMS pot arribar a allargar-se uns minuts.</p>
+                            <a class="link-intern-normal" href="#">No reps el codi?</a>
+
+                        </form>                                                                          
+                    </div>
+                </div>
+            </div>
+            <!-- </main> -->
+        </div>
+    </div>
+    <div class="container-fluid g-0">
+        <div class="row g-0">
+            <div class="col-12 col-lg-6">
+                <footer>
+                    <!-- Logos and legal links -->
+                    <div class="logos">
+                        <img src="assets/logo-aoc.svg" alt="Administració Oberta de Catalunya">
+                        <img src="assets/logo-ue.svg" alt="Cofinançat per la Unió Europea">
+                    </div>
+                    <div class="legal-links">
+                        <ul>
+                            <li><a class="text-p-13 no-underline" href="#">Ajuda</a></li>
+                            <li><a class="text-p-13 no-underline" href="#">Avís legal</a></li>
+                        </ul>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
