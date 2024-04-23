@@ -395,8 +395,8 @@ Select.prototype.updateMenuState = function (open, callFocus = true) {
 // init select
 window.addEventListener('load', function () {
   const options = [
-    'VAT',
     'NIF',
+    'VAT',
   ];
   const selectEls = document.querySelectorAll('.js-select');
 
@@ -416,4 +416,20 @@ window.addEventListener('load', function () {
     selectEls.forEach((el) => {
       new Select(el, options);
     });
+});
+
+// init select
+window.addEventListener('load', function () {
+  const options = [
+    '+34',
+    '+33',
+    '+351',
+  ];
+  const selectEls = document.querySelectorAll('.js-select-3');
+
+  selectEls.forEach((el) => {
+    new Select(el, options);
   });
+});
+
+  
