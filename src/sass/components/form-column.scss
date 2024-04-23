@@ -1,0 +1,74 @@
+.form-column {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $white;
+
+    @media #{$screen-lg} {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 50%;
+        background-color: $grey-04;
+    }
+
+    h2 {
+        text-align: left;
+        color: $grey-color-hight;
+        margin: 0;
+        margin-bottom: 8px;       
+
+    }
+
+    .inside {
+        background-color: white ;
+        border-radius: 12px;
+        box-shadow: $shadow-24dp;
+        padding: 24px;
+        width: 100%;
+
+        @media #{$screen-lg} {
+            width: auto;
+        }        
+    }
+
+    .login-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    fieldset{
+        margin-top: 16px;
+        margin-bottom: 16px; 
+        
+        legend{
+            margin-bottom: 4px;
+        }
+
+        input{
+            border-radius: 6px;
+            border: 1px solid $grey-color-medium;
+        }      
+        
+        input[type=checkbox] {
+            width: 18px;
+            height: 18px;
+            margin: 3px 12px 3px 3px;
+            display: inline-block;
+        }               
+    }
+
+    .align-checkbox{
+        display: flex;
+        align-items: center;
+    }
+
+    button{
+        width: 100%;
+        margin-bottom: 16px;
+    }    
+}
+
