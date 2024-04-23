@@ -49,5 +49,5 @@ Thumbs.db
 *.wmv
 
 # Compiled styles files
-src/css
+src/css/style.css.map
 
