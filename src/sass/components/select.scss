@@ -18,9 +18,10 @@
 
     .combo-input {
       background-color: $white;
-      border: 1px solid $grey-color-hight;
+      border: 1px solid $grey-color-medium;  
       border-radius: $input-radius 0px 0px $input-radius;
       display: block;
+      font-family: $font-family;
       font-size: 1em;
       padding: rem(12px) rem(40px) rem(12px) rem(16px);
       text-align: left;
