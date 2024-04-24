@@ -19,15 +19,15 @@
         text-align: left;
         color: $grey-color-hight;
         margin: 0;
-        margin-bottom: 8px;       
+        margin-bottom: rem(8px);       
 
     }
 
     .inside {
         background-color: white ;
-        border-radius: 12px;
+        border-radius: rem(12px);
         box-shadow: $shadow-24dp;
-        padding: 24px;
+        padding: rem(24px);
         width: 100%;
 
         @media #{$screen-lg} {
@@ -41,22 +41,22 @@
     }
 
     fieldset{
-        margin-top: 16px;
-        margin-bottom: 16px; 
+        margin-top: rem(16px);
+        margin-bottom: rem(16px); 
         
         legend{
-            margin-bottom: 4px;
+            margin-bottom: rem(4px);
         }
 
         input{
-            border-radius: 6px;
-            border: 1px solid $grey-color-medium;
+            border-radius: rem(6px);
+            border: rem(1px) solid $grey-color-medium;
         }      
         
         input[type=checkbox] {
-            width: 18px;
-            height: 18px;
-            margin: 3px 12px 3px 3px;
+            width: rem(18px);
+            height: rem(18px);
+            margin: rem(3px) rem(12px) rem(3px) rem(3px);
             display: inline-block;
         }               
     }
@@ -68,7 +68,19 @@
 
     button{
         width: 100%;
-        margin-bottom: 16px;
+        margin-bottom: rem(16px);
     }    
+
+    .input-verify{    
+        display: flex;
+        flex-direction: row;   
+        justify-content: space-between;    
+        gap: rem(8px);               
+
+        input{
+            width: rem(49px);
+            height: rem(60px);                          
+        }           
+    }
 }
 
