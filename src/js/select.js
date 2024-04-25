@@ -212,7 +212,7 @@ Select.prototype.createOption = function (optionText, index) {
   optionEl.className =
     index === 0 ? 'combo-option option-current' : 'combo-option';
   optionEl.setAttribute('aria-selected', `${index === 0}`);
-  optionEl.innerHTML = "<span class='option-text'>" + optionText + "</span>";
+  optionEl.innerHTML = "<span class='option-text label-input'>" + optionText + "</span>";
 
   optionEl.addEventListener('click', (event) => {
     event.stopPropagation();

@@ -8307,6 +8307,7 @@ input[aria-invalid=true] {
 }
 .select-input .select-text-field input {
   border-radius: 0px 6px 6px 0px;
+  border-left: none;
 }
 
 fieldset {
@@ -8323,10 +8324,10 @@ fieldset {
   font-family: "Material Icons Outlined";
   font-size: 16px;
   content: "arrow_drop_down";
-  color: #000;
+  color: rgba(35, 53, 75, 0.72);
   position: absolute;
   right: 16px;
-  top: 35%;
+  top: 31%;
   pointer-events: none;
   padding-right: 0.2rem;
 }
@@ -8335,15 +8336,13 @@ fieldset {
   border: 1px solid rgba(35, 53, 75, 0.72);
   border-radius: 6px 0px 0px 6px;
   display: block;
-  font-family: "Work Sans", sans-serif;
-  font-size: 1em;
   padding: 0.6666666667rem 2.2222222222rem 0.6666666667rem 0.8888888889rem;
   text-align: left;
 }
 .custom-select .combo-input:focus-visible {
-  border-color: #0dcaf0;
-  box-shadow: 0 0 4px 2px #0dcaf0;
-  outline: 4px solid transparent;
+  border-color: 1px solid #006BE8;
+  -webkit-box-shadow: 0px 0px 5px #006BE8;
+  box-shadow: 0px 0px 5px #006BE8;
 }
 .custom-select .combo-label {
   display: block;
@@ -8353,7 +8352,10 @@ fieldset {
 }
 .custom-select .combo-menu {
   background-color: #fff;
-  border: 1px solid #23354B;
+  border: 1px solid rgba(35, 53, 75, 0.72);
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
   border-top: none;
   display: none;
   left: 0;
@@ -8458,13 +8460,13 @@ fieldset {
 .form-column .inside {
   background-color: white;
   border-radius: 0.6666666667rem;
-  padding: 1.3333333333rem;
   width: 100%;
 }
 @media (min-width: 992px) {
   .form-column .inside {
     width: auto;
     box-shadow: 0px 24px 38px 0px rgba(0, 0, 0, 0.14);
+    padding: 1.3333333333rem;
   }
 }
 .form-column .login-buttons {

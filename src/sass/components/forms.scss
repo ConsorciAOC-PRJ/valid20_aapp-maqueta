@@ -37,7 +37,8 @@ input[aria-invalid="true"] {
         width: 100%;
         
         input{
-            border-radius:  0px $input-radius $input-radius 0px;                      
+            border-radius:  0px $input-radius $input-radius 0px;    
+            border-left: none;                  
         }        
     }
 }
