@@ -25,13 +25,13 @@
 
     .inside {
         background-color: white ;
-        border-radius: rem(12px);
-        box-shadow: $shadow-24dp;
+        border-radius: rem(12px);        
         padding: rem(24px);
         width: 100%;
 
         @media #{$screen-lg} {
             width: auto;
+            box-shadow: $shadow-24dp;
         }        
     }
 

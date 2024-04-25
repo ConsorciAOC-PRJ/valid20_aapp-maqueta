@@ -8458,13 +8458,13 @@ fieldset {
 .form-column .inside {
   background-color: white;
   border-radius: 0.6666666667rem;
-  box-shadow: 0px 24px 38px 0px rgba(0, 0, 0, 0.14);
   padding: 1.3333333333rem;
   width: 100%;
 }
 @media (min-width: 992px) {
   .form-column .inside {
     width: auto;
+    box-shadow: 0px 24px 38px 0px rgba(0, 0, 0, 0.14);
   }
 }
 .form-column .login-buttons {
