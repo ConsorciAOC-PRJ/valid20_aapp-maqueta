@@ -58,6 +58,9 @@
             height: rem(18px);
             margin: rem(3px) rem(12px) rem(3px) rem(3px);
             display: inline-block;
+            border-radius: 4px;
+            border-color: $white;
+            accent-color: $primary-color-main;
         }               
     }
 

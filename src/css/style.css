@@ -8323,7 +8323,7 @@ fieldset {
 .custom-select .combo::after {
   font-family: "Material Icons Outlined";
   font-size: 16px;
-  content: "arrow_drop_down";
+  content: "arrow_drop_down"/"";
   color: rgba(35, 53, 75, 0.72);
   position: absolute;
   right: 16px;
@@ -8489,6 +8489,9 @@ fieldset {
   height: 1rem;
   margin: 0.1666666667rem 0.6666666667rem 0.1666666667rem 0.1666666667rem;
   display: inline-block;
+  border-radius: 4px;
+  border-color: #fff;
+  accent-color: #006BE8;
 }
 .form-column .align-checkbox {
   display: flex;
