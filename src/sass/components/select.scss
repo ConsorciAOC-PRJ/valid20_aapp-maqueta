@@ -7,7 +7,7 @@
     .combo::after {
       font-family: "Material Icons Outlined";
       font-size: 16px;
-      content: "arrow_drop_down";
+      content: "arrow_drop_down" / "";
       color: $grey-color-medium;
       position: absolute;
       right: 16px;
