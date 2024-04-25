@@ -8269,7 +8269,7 @@ Notes:
 
 input.field, select.field {
   border: 1px solid #23354B;
-  border-radius: 2px;
+  border-radius: 6px;
   padding: 0.6666666667rem;
   box-sizing: border-box;
   width: 100%;
@@ -8473,18 +8473,18 @@ fieldset {
   display: flex;
   flex-direction: column;
 }
-.form-column fieldset {
+.form-column .form-field, .form-column fieldset {
   margin-top: 0.8888888889rem;
   margin-bottom: 0.8888888889rem;
 }
-.form-column fieldset legend {
+.form-column .form-field legend, .form-column .form-field label, .form-column fieldset legend, .form-column fieldset label {
   margin-bottom: 0.2222222222rem;
 }
-.form-column fieldset input {
+.form-column .form-field input, .form-column fieldset input {
   border-radius: 0.3333333333rem;
   border: 0.0555555556rem solid rgba(35, 53, 75, 0.72);
 }
-.form-column fieldset input[type=checkbox] {
+.form-column .form-field input[type=checkbox], .form-column fieldset input[type=checkbox] {
   width: 1rem;
   height: 1rem;
   margin: 0.1666666667rem 0.6666666667rem 0.1666666667rem 0.1666666667rem;

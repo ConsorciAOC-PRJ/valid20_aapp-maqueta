@@ -1,6 +1,6 @@
 input.field, select.field {
     border: 1px solid $grey-color-hight;
-    border-radius: 2px;    
+    border-radius: $input-radius;      
     padding: rem(12px);
     box-sizing: border-box;
     width: 100%;

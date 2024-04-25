@@ -40,11 +40,11 @@
         flex-direction: column;
     }
 
-    fieldset{
+    .form-field, fieldset {
         margin-top: rem(16px);
         margin-bottom: rem(16px); 
         
-        legend{
+        legend, label {
             margin-bottom: rem(4px);
         }
 
