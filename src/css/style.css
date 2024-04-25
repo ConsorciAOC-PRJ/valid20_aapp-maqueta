@@ -8319,6 +8319,7 @@ fieldset {
 .custom-select .combo {
   display: block;
   position: relative;
+  cursor: pointer;
 }
 .custom-select .combo::after {
   font-family: "Material Icons Outlined";
