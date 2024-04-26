@@ -13,12 +13,13 @@
         right: 0;
         width: 50%;
         background-color: $grey-04;
+
     }
 
     h2 {
         margin: 0;
         margin-bottom: rem(8px);
-        @include font(15px, 500, 20px, 0.25px); 
+        @include font(15px, 500, 20px, 0.25px);
 
         @media #{$screen-lg} {
             @include font(25px, 700, 32px, 0.25px);
@@ -39,5 +40,13 @@
     .login-buttons {
         display: flex;
         flex-direction: column;
+    }
+}
+
+.background {
+    @media #{$screen-lg} {
+        background-image: url("../../assets/pedrera.png");
+        background-size: cover;
+        background-position: center;
     }
 }

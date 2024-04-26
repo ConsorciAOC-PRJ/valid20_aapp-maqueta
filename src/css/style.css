@@ -8434,6 +8434,14 @@ fieldset {
   flex-direction: column;
 }
 
+@media (min-width: 992px) {
+  .background {
+    background-image: url("../../assets/pedrera.png");
+    background-size: cover;
+    background-position: center;
+  }
+}
+
 .form-column {
   position: relative;
   height: 100%;
