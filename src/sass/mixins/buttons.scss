@@ -358,7 +358,7 @@
     border-radius: $btn-border-radius;
     border: rem(1px) solid $grey-color-divider;
     font-family: $btn-font-family;
-    background-color: #fff;
+    background-color: $btn-login;
     text-align: left;
     margin: rem(8px); // 8*2=16px between buttons
     padding: 0;
@@ -387,7 +387,7 @@
 
     // ICON CIRLE
     .icon-circle {
-        background-color: #F6F7F8;
+        background-color: $btn-login-circle;
         width: rem(36px);
         height: rem(36px);
         border-radius: 50%;
