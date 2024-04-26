@@ -8434,14 +8434,6 @@ fieldset {
   flex-direction: column;
 }
 
-@media (min-width: 992px) {
-  .background {
-    background-image: url("../../assets/pedrera.png");
-    background-size: cover;
-    background-position: center;
-  }
-}
-
 .form-column {
   position: relative;
   height: 100%;
@@ -8605,6 +8597,14 @@ header p {
 }
 .banner-error p {
   margin: 0.4444444444rem 0.4444444444rem 0.4444444444rem 0;
+}
+
+@media (min-width: 992px) {
+  .background {
+    background-image: url("../../assets/pedrera.png");
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 .eacat-login .left-col {
