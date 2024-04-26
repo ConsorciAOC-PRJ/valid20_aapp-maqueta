@@ -1,3 +1,4 @@
+
 // PRIMARY COLORS
 $primary-color-main: #006BE8;       // 700
 $primary-color-darker: #1839B6;     // 900
@@ -5,18 +6,18 @@ $primary-color-lighter: #D9EDFF;    // 100
 $primary-color-200: #89C6FF;        // 200
 
 // GRAY COLORS
-$grey-04: #545F76;
-$grey-color-hight: #23354B;                 // 900
-$grey-color-medium: rgba(#23354B, 0.72);    // 900 72%
-$grey-color-low: rgba(#23354B, 0.38);       // 900 38%
-$grey-color-divider: rgba(#23354B, 0.12);   // 900 12%
+$grey-background: #545F76;                   
+$grey-color-hight: #23354B;          // 900
+$grey-color-medium: #364A63;         // 800
+$grey-color-low: #545F76;            // 700
+$grey-color-divider: #71788D;        // 600
 
 // ERROR COLORS
 $error-color-600: #D61660;   // 600
 $error-color-light: #FCE4EC; // 50   
 
 // BUTTONS GENERAL
-$btn-main-color: $primary-color-main;
+$btn-main-color: $primary-color-main;    //Button color
 $btn-color-font: #ffffff;
 $btn-font-family: "Work Sans", sans-serif;
 $btn-font-size: 15px;
@@ -29,14 +30,14 @@ $btn-emplenat-hover: #1477EA;
 $btn-emplenat-pressed: #1F7DEB;
 $btn-disabled-gray: $grey-color-divider;
 $btn-disabled-gray-font: $grey-color-low;
-$btn-subratllat-hover: rgba($btn-main-color, 4%);
-$btn-subratllat-pressed: rgba($btn-main-color, 6%);
-$btn-text-light-hover: rgba($btn-main-color, 4%);
-$btn-text-light-pressed: rgba($btn-main-color, 6%);
+$btn-subratllat-hover: #EEF3FB;             //Button subratllat hover +4% opacitat 
+$btn-subratllat-pressed: #EDF3FB;           //Button subratllat pressed +6% opacitat
+$btn-text-light-hover: #EEF3FB;             //Button text light hover +4% opacitat 
+$btn-text-light-pressed: #EDF3FB;           //Button text light pressed +6% opacitat 
 $btn-text-dark: $primary-color-200;
-$btn-text-dark-hover: rgba(white, 8%);
-$btn-text-dark-pressed: rgba(white, 12%);
-$btn-text-disabled-dark: rgba(white, 38%);
+$btn-text-dark-hover: #344559;              //Button text dark hover +8% opacitat 
+$btn-text-dark-pressed: #3D4E62;            //Button text dark pressed +12% opacitat 
+$btn-text-disabled-dark: #23354B;           //Button text dark disabled +38% opacitat 
 $btn-warning-hover: #D9286C;
 $btn-warning-pressed: #DB3273;
 $btn-fab-hover: #1477EA;

@@ -6320,8 +6320,8 @@ Notes:
   letter-spacing: 0.0277777778rem;
   height: 2.4444444444rem;
   padding: 0.6666666667rem 0.8888888889rem;
-  background-color: rgba(35, 53, 75, 0.12);
-  color: rgba(35, 53, 75, 0.38);
+  background-color: #71788D;
+  color: #545F76;
 }
 .btn-emplenats.btn-3 .material-icons-outlined {
   font-size: 1.1111111111rem;
@@ -6343,8 +6343,8 @@ Notes:
   gap: 0.4444444444rem;
   height: 2.4444444444rem;
   padding: 0.6666666667rem 0.8888888889rem 0.6666666667rem 0.6666666667rem;
-  background-color: rgba(35, 53, 75, 0.12);
-  color: rgba(35, 53, 75, 0.38);
+  background-color: #71788D;
+  color: #545F76;
 }
 .btn-emplenats.btn-3add .material-icons-outlined {
   font-size: 1.1111111111rem;
@@ -6366,8 +6366,8 @@ Notes:
   gap: 0.4444444444rem;
   height: 2.4444444444rem;
   padding: 0.6666666667rem 0.6666666667rem 0.6666666667rem 0.8888888889rem;
-  background-color: rgba(35, 53, 75, 0.12);
-  color: rgba(35, 53, 75, 0.38);
+  background-color: #71788D;
+  color: #545F76;
 }
 .btn-emplenats.btn-3arrow .material-icons-outlined {
   font-size: 1.1111111111rem;
@@ -6384,8 +6384,8 @@ Notes:
   letter-spacing: 0.0277777778rem;
   height: 2rem;
   padding: 0.4444444444rem 0.8888888889rem;
-  background-color: rgba(35, 53, 75, 0.12);
-  color: rgba(35, 53, 75, 0.38);
+  background-color: #71788D;
+  color: #545F76;
 }
 .btn-emplenats.btn-4 .material-icons-outlined {
   font-size: 1.1111111111rem;
@@ -6407,8 +6407,8 @@ Notes:
   gap: 0.4444444444rem;
   height: 2rem;
   padding: 0.4444444444rem 0.8888888889rem 0.4444444444rem 0.6666666667rem;
-  background-color: rgba(35, 53, 75, 0.12);
-  color: rgba(35, 53, 75, 0.38);
+  background-color: #71788D;
+  color: #545F76;
 }
 .btn-emplenats.btn-4add .material-icons-outlined {
   font-size: 1.1111111111rem;
@@ -6430,8 +6430,8 @@ Notes:
   gap: 0.4444444444rem;
   height: 2rem;
   padding: 0.4444444444rem 0.6666666667rem 0.4444444444rem 0.8888888889rem;
-  background-color: rgba(35, 53, 75, 0.12);
-  color: rgba(35, 53, 75, 0.38);
+  background-color: #71788D;
+  color: #545F76;
 }
 .btn-emplenats.btn-4arrow .material-icons-outlined {
   font-size: 1.1111111111rem;
@@ -6448,7 +6448,7 @@ Notes:
   letter-spacing: 0.0277777778rem;
   height: 2.4444444444rem;
   padding: 0.6666666667rem 0.8888888889rem;
-  border: 1px solid rgba(35, 53, 75, 0.12);
+  border: 1px solid #71788D;
   color: #23354B;
   cursor: pointer;
 }
@@ -6456,17 +6456,17 @@ Notes:
   font-size: 1.1111111111rem;
 }
 .btn-subratllat.btn-5:hover {
-  background-color: rgba(0, 107, 232, 0.04);
+  background-color: #EEF3FB;
   border: 1px solid #006BE8;
   color: #006BE8;
 }
 .btn-subratllat.btn-5:active {
-  background-color: rgba(0, 107, 232, 0.06);
+  background-color: #EDF3FB;
   border: 1px solid #006BE8;
   color: #006BE8;
 }
 .btn-subratllat.btn-5:focus {
-  background-color: rgba(0, 107, 232, 0.06);
+  background-color: #EDF3FB;
   border: 1px solid #006BE8;
   color: #006BE8;
 }
@@ -6487,7 +6487,7 @@ Notes:
   gap: 0.4444444444rem;
   height: 2.4444444444rem;
   padding: 0.6666666667rem 0.8888888889rem 0.6666666667rem 0.6666666667rem;
-  border: 1px solid rgba(35, 53, 75, 0.12);
+  border: 1px solid #71788D;
   color: #23354B;
   cursor: pointer;
 }
@@ -6495,17 +6495,17 @@ Notes:
   font-size: 1.1111111111rem;
 }
 .btn-subratllat.btn-5add:hover {
-  background-color: rgba(0, 107, 232, 0.04);
+  background-color: #EEF3FB;
   border: 1px solid #006BE8;
   color: #006BE8;
 }
 .btn-subratllat.btn-5add:active {
-  background-color: rgba(0, 107, 232, 0.06);
+  background-color: #EDF3FB;
   border: 1px solid #006BE8;
   color: #006BE8;
 }
 .btn-subratllat.btn-5add:focus {
-  background-color: rgba(0, 107, 232, 0.06);
+  background-color: #EDF3FB;
   border: 1px solid #006BE8;
   color: #006BE8;
 }
@@ -6526,7 +6526,7 @@ Notes:
   gap: 0.4444444444rem;
   height: 2.4444444444rem;
   padding: 0.6666666667rem 0.6666666667rem 0.6666666667rem 0.8888888889rem;
-  border: 1px solid rgba(35, 53, 75, 0.12);
+  border: 1px solid #71788D;
   color: #23354B;
   cursor: pointer;
 }
@@ -6534,17 +6534,17 @@ Notes:
   font-size: 1.1111111111rem;
 }
 .btn-subratllat.btn-5arrow:hover {
-  background-color: rgba(0, 107, 232, 0.04);
+  background-color: #EEF3FB;
   border: 1px solid #006BE8;
   color: #006BE8;
 }
 .btn-subratllat.btn-5arrow:active {
-  background-color: rgba(0, 107, 232, 0.06);
+  background-color: #EDF3FB;
   border: 1px solid #006BE8;
   color: #006BE8;
 }
 .btn-subratllat.btn-5arrow:focus {
-  background-color: rgba(0, 107, 232, 0.06);
+  background-color: #EDF3FB;
   border: 1px solid #006BE8;
   color: #006BE8;
 }
@@ -6560,7 +6560,7 @@ Notes:
   letter-spacing: 0.0277777778rem;
   height: 2rem;
   padding: 0.4444444444rem 0.8888888889rem;
-  border: 1px solid rgba(35, 53, 75, 0.12);
+  border: 1px solid #71788D;
   color: #23354B;
   cursor: pointer;
 }
@@ -6568,17 +6568,17 @@ Notes:
   font-size: 1.1111111111rem;
 }
 .btn-subratllat.btn-6:hover {
-  background-color: rgba(0, 107, 232, 0.04);
+  background-color: #EEF3FB;
   border: 1px solid #006BE8;
   color: #006BE8;
 }
 .btn-subratllat.btn-6:active {
-  background-color: rgba(0, 107, 232, 0.06);
+  background-color: #EDF3FB;
   border: 1px solid #006BE8;
   color: #006BE8;
 }
 .btn-subratllat.btn-6:focus {
-  background-color: rgba(0, 107, 232, 0.06);
+  background-color: #EDF3FB;
   border: 1px solid #006BE8;
   color: #006BE8;
 }
@@ -6599,7 +6599,7 @@ Notes:
   gap: 0.4444444444rem;
   height: 2rem;
   padding: 0.4444444444rem 0.8888888889rem 0.4444444444rem 0.6666666667rem;
-  border: 1px solid rgba(35, 53, 75, 0.12);
+  border: 1px solid #71788D;
   color: #23354B;
   cursor: pointer;
 }
@@ -6607,17 +6607,17 @@ Notes:
   font-size: 1.1111111111rem;
 }
 .btn-subratllat.btn-6add:hover {
-  background-color: rgba(0, 107, 232, 0.04);
+  background-color: #EEF3FB;
   border: 1px solid #006BE8;
   color: #006BE8;
 }
 .btn-subratllat.btn-6add:active {
-  background-color: rgba(0, 107, 232, 0.06);
+  background-color: #EDF3FB;
   border: 1px solid #006BE8;
   color: #006BE8;
 }
 .btn-subratllat.btn-6add:focus {
-  background-color: rgba(0, 107, 232, 0.06);
+  background-color: #EDF3FB;
   border: 1px solid #006BE8;
   color: #006BE8;
 }
@@ -6638,7 +6638,7 @@ Notes:
   gap: 0.4444444444rem;
   height: 2rem;
   padding: 0.4444444444rem 0.6666666667rem 0.4444444444rem 0.8888888889rem;
-  border: 1px solid rgba(35, 53, 75, 0.12);
+  border: 1px solid #71788D;
   color: #23354B;
   cursor: pointer;
 }
@@ -6646,17 +6646,17 @@ Notes:
   font-size: 1.1111111111rem;
 }
 .btn-subratllat.btn-6arrow:hover {
-  background-color: rgba(0, 107, 232, 0.04);
+  background-color: #EEF3FB;
   border: 1px solid #006BE8;
   color: #006BE8;
 }
 .btn-subratllat.btn-6arrow:active {
-  background-color: rgba(0, 107, 232, 0.06);
+  background-color: #EDF3FB;
   border: 1px solid #006BE8;
   color: #006BE8;
 }
 .btn-subratllat.btn-6arrow:focus {
-  background-color: rgba(0, 107, 232, 0.06);
+  background-color: #EDF3FB;
   border: 1px solid #006BE8;
   color: #006BE8;
 }
@@ -6672,8 +6672,8 @@ Notes:
   letter-spacing: 0.0277777778rem;
   height: 2.4444444444rem;
   padding: 0.6666666667rem 0.8888888889rem;
-  border: 1px solid rgba(35, 53, 75, 0.12);
-  color: rgba(35, 53, 75, 0.38);
+  border: 1px solid #71788D;
+  color: #545F76;
 }
 .btn-subratllat.btn-7 .material-icons-outlined {
   font-size: 1.1111111111rem;
@@ -6695,8 +6695,8 @@ Notes:
   gap: 0.4444444444rem;
   height: 2.4444444444rem;
   padding: 0.6666666667rem 0.8888888889rem 0.6666666667rem 0.6666666667rem;
-  border: 1px solid rgba(35, 53, 75, 0.12);
-  color: rgba(35, 53, 75, 0.38);
+  border: 1px solid #71788D;
+  color: #545F76;
 }
 .btn-subratllat.btn-7add .material-icons-outlined {
   font-size: 1.1111111111rem;
@@ -6718,8 +6718,8 @@ Notes:
   gap: 0.4444444444rem;
   height: 2.4444444444rem;
   padding: 0.6666666667rem 0.6666666667rem 0.6666666667rem 0.8888888889rem;
-  border: 1px solid rgba(35, 53, 75, 0.12);
-  color: rgba(35, 53, 75, 0.38);
+  border: 1px solid #71788D;
+  color: #545F76;
 }
 .btn-subratllat.btn-7arrow .material-icons-outlined {
   font-size: 1.1111111111rem;
@@ -6736,8 +6736,8 @@ Notes:
   letter-spacing: 0.0277777778rem;
   height: 2rem;
   padding: 0.4444444444rem 0.8888888889rem;
-  border: 1px solid rgba(35, 53, 75, 0.12);
-  color: rgba(35, 53, 75, 0.38);
+  border: 1px solid #71788D;
+  color: #545F76;
 }
 .btn-subratllat.btn-8 .material-icons-outlined {
   font-size: 1.1111111111rem;
@@ -6759,8 +6759,8 @@ Notes:
   gap: 0.4444444444rem;
   height: 2rem;
   padding: 0.4444444444rem 0.8888888889rem 0.4444444444rem 0.6666666667rem;
-  border: 1px solid rgba(35, 53, 75, 0.12);
-  color: rgba(35, 53, 75, 0.38);
+  border: 1px solid #71788D;
+  color: #545F76;
 }
 .btn-subratllat.btn-8add .material-icons-outlined {
   font-size: 1.1111111111rem;
@@ -6782,8 +6782,8 @@ Notes:
   gap: 0.4444444444rem;
   height: 2rem;
   padding: 0.4444444444rem 0.6666666667rem 0.4444444444rem 0.8888888889rem;
-  border: 1px solid rgba(35, 53, 75, 0.12);
-  color: rgba(35, 53, 75, 0.38);
+  border: 1px solid #71788D;
+  color: #545F76;
 }
 .btn-subratllat.btn-8arrow .material-icons-outlined {
   font-size: 1.1111111111rem;
@@ -6807,13 +6807,13 @@ Notes:
   font-size: 1.1111111111rem;
 }
 .btn-text.btn-9:hover {
-  background-color: rgba(0, 107, 232, 0.04);
+  background-color: #EEF3FB;
 }
 .btn-text.btn-9:active {
-  background-color: rgba(0, 107, 232, 0.06);
+  background-color: #EDF3FB;
 }
 .btn-text.btn-9:focus {
-  background-color: rgba(0, 107, 232, 0.06);
+  background-color: #EDF3FB;
 }
 
 .btn-text.btn-9add {
@@ -6839,13 +6839,13 @@ Notes:
   font-size: 1.1111111111rem;
 }
 .btn-text.btn-9add:hover {
-  background-color: rgba(0, 107, 232, 0.04);
+  background-color: #EEF3FB;
 }
 .btn-text.btn-9add:active {
-  background-color: rgba(0, 107, 232, 0.06);
+  background-color: #EDF3FB;
 }
 .btn-text.btn-9add:focus {
-  background-color: rgba(0, 107, 232, 0.06);
+  background-color: #EDF3FB;
 }
 
 .btn-text.btn-9arrow {
@@ -6871,13 +6871,13 @@ Notes:
   font-size: 1.1111111111rem;
 }
 .btn-text.btn-9arrow:hover {
-  background-color: rgba(0, 107, 232, 0.04);
+  background-color: #EEF3FB;
 }
 .btn-text.btn-9arrow:active {
-  background-color: rgba(0, 107, 232, 0.06);
+  background-color: #EDF3FB;
 }
 .btn-text.btn-9arrow:focus {
-  background-color: rgba(0, 107, 232, 0.06);
+  background-color: #EDF3FB;
 }
 
 .btn-text.btn-10 {
@@ -6898,13 +6898,13 @@ Notes:
   font-size: 1.1111111111rem;
 }
 .btn-text.btn-10:hover {
-  background-color: rgba(0, 107, 232, 0.04);
+  background-color: #EEF3FB;
 }
 .btn-text.btn-10:active {
-  background-color: rgba(0, 107, 232, 0.06);
+  background-color: #EDF3FB;
 }
 .btn-text.btn-10:focus {
-  background-color: rgba(0, 107, 232, 0.06);
+  background-color: #EDF3FB;
 }
 
 .btn-text.btn-10add {
@@ -6930,13 +6930,13 @@ Notes:
   font-size: 1.1111111111rem;
 }
 .btn-text.btn-10add:hover {
-  background-color: rgba(0, 107, 232, 0.04);
+  background-color: #EEF3FB;
 }
 .btn-text.btn-10add:active {
-  background-color: rgba(0, 107, 232, 0.06);
+  background-color: #EDF3FB;
 }
 .btn-text.btn-10add:focus {
-  background-color: rgba(0, 107, 232, 0.06);
+  background-color: #EDF3FB;
 }
 
 .btn-text.btn-10arrow {
@@ -6962,13 +6962,13 @@ Notes:
   font-size: 1.1111111111rem;
 }
 .btn-text.btn-10arrow:hover {
-  background-color: rgba(0, 107, 232, 0.04);
+  background-color: #EEF3FB;
 }
 .btn-text.btn-10arrow:active {
-  background-color: rgba(0, 107, 232, 0.06);
+  background-color: #EDF3FB;
 }
 .btn-text.btn-10arrow:focus {
-  background-color: rgba(0, 107, 232, 0.06);
+  background-color: #EDF3FB;
 }
 
 .btn-text.btn-11 {
@@ -6989,13 +6989,13 @@ Notes:
   font-size: 1.1111111111rem;
 }
 .btn-text.btn-11:hover {
-  background-color: rgba(255, 255, 255, 0.08);
+  background-color: #344559;
 }
 .btn-text.btn-11:active {
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: #3D4E62;
 }
 .btn-text.btn-11:focus {
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: #3D4E62;
 }
 
 .btn-text.btn-11add {
@@ -7021,13 +7021,13 @@ Notes:
   font-size: 1.1111111111rem;
 }
 .btn-text.btn-11add:hover {
-  background-color: rgba(255, 255, 255, 0.08);
+  background-color: #344559;
 }
 .btn-text.btn-11add:active {
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: #3D4E62;
 }
 .btn-text.btn-11add:focus {
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: #3D4E62;
 }
 
 .btn-text.btn-11arrow {
@@ -7053,13 +7053,13 @@ Notes:
   font-size: 1.1111111111rem;
 }
 .btn-text.btn-11arrow:hover {
-  background-color: rgba(255, 255, 255, 0.08);
+  background-color: #344559;
 }
 .btn-text.btn-11arrow:active {
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: #3D4E62;
 }
 .btn-text.btn-11arrow:focus {
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: #3D4E62;
 }
 
 .btn-text.btn-12 {
@@ -7080,13 +7080,13 @@ Notes:
   font-size: 1.1111111111rem;
 }
 .btn-text.btn-12:hover {
-  background-color: rgba(255, 255, 255, 0.08);
+  background-color: #344559;
 }
 .btn-text.btn-12:active {
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: #3D4E62;
 }
 .btn-text.btn-12:focus {
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: #3D4E62;
 }
 
 .btn-text.btn-12add {
@@ -7112,13 +7112,13 @@ Notes:
   font-size: 1.1111111111rem;
 }
 .btn-text.btn-12add:hover {
-  background-color: rgba(255, 255, 255, 0.08);
+  background-color: #344559;
 }
 .btn-text.btn-12add:active {
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: #3D4E62;
 }
 .btn-text.btn-12add:focus {
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: #3D4E62;
 }
 
 .btn-text.btn-12arrow {
@@ -7144,13 +7144,13 @@ Notes:
   font-size: 1.1111111111rem;
 }
 .btn-text.btn-12arrow:hover {
-  background-color: rgba(255, 255, 255, 0.08);
+  background-color: #344559;
 }
 .btn-text.btn-12arrow:active {
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: #3D4E62;
 }
 .btn-text.btn-12arrow:focus {
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: #3D4E62;
 }
 
 .btn-text.btn-13 {
@@ -7164,7 +7164,7 @@ Notes:
   letter-spacing: 0.0277777778rem;
   height: 2.4444444444rem;
   padding: 0.6666666667rem 0.8888888889rem;
-  color: rgba(35, 53, 75, 0.38);
+  color: #545F76;
 }
 .btn-text.btn-13 .material-icons-outlined {
   font-size: 1.1111111111rem;
@@ -7186,7 +7186,7 @@ Notes:
   gap: 0.4444444444rem;
   height: 2.4444444444rem;
   padding: 0.6666666667rem 0.8888888889rem 0.6666666667rem 0.6666666667rem;
-  color: rgba(35, 53, 75, 0.38);
+  color: #545F76;
 }
 .btn-text.btn-13add .material-icons-outlined {
   font-size: 1.1111111111rem;
@@ -7208,7 +7208,7 @@ Notes:
   gap: 0.4444444444rem;
   height: 2.4444444444rem;
   padding: 0.6666666667rem 0.6666666667rem 0.6666666667rem 0.8888888889rem;
-  color: rgba(35, 53, 75, 0.38);
+  color: #545F76;
 }
 .btn-text.btn-13arrow .material-icons-outlined {
   font-size: 1.1111111111rem;
@@ -7225,7 +7225,7 @@ Notes:
   letter-spacing: 0.0277777778rem;
   height: 2rem;
   padding: 0.4444444444rem 0.8888888889rem;
-  color: rgba(35, 53, 75, 0.38);
+  color: #545F76;
 }
 .btn-text.btn-14 .material-icons-outlined {
   font-size: 1.1111111111rem;
@@ -7247,7 +7247,7 @@ Notes:
   gap: 0.4444444444rem;
   height: 2rem;
   padding: 0.4444444444rem 0.8888888889rem 0.4444444444rem 0.6666666667rem;
-  color: rgba(35, 53, 75, 0.38);
+  color: #545F76;
 }
 .btn-text.btn-14add .material-icons-outlined {
   font-size: 1.1111111111rem;
@@ -7269,7 +7269,7 @@ Notes:
   gap: 0.4444444444rem;
   height: 2rem;
   padding: 0.4444444444rem 0.6666666667rem 0.4444444444rem 0.8888888889rem;
-  color: rgba(35, 53, 75, 0.38);
+  color: #545F76;
 }
 .btn-text.btn-14arrow .material-icons-outlined {
   font-size: 1.1111111111rem;
@@ -7286,7 +7286,7 @@ Notes:
   letter-spacing: 0.0277777778rem;
   height: 2.4444444444rem;
   padding: 0.6666666667rem 0.8888888889rem;
-  color: rgba(255, 255, 255, 0.38);
+  color: #23354B;
 }
 .btn-text.btn-15 .material-icons-outlined {
   font-size: 1.1111111111rem;
@@ -7308,7 +7308,7 @@ Notes:
   gap: 0.4444444444rem;
   height: 2.4444444444rem;
   padding: 0.6666666667rem 0.8888888889rem 0.6666666667rem 0.6666666667rem;
-  color: rgba(255, 255, 255, 0.38);
+  color: #23354B;
 }
 .btn-text.btn-15add .material-icons-outlined {
   font-size: 1.1111111111rem;
@@ -7330,7 +7330,7 @@ Notes:
   gap: 0.4444444444rem;
   height: 2.4444444444rem;
   padding: 0.6666666667rem 0.6666666667rem 0.6666666667rem 0.8888888889rem;
-  color: rgba(255, 255, 255, 0.38);
+  color: #23354B;
 }
 .btn-text.btn-15arrow .material-icons-outlined {
   font-size: 1.1111111111rem;
@@ -7347,7 +7347,7 @@ Notes:
   letter-spacing: 0.0277777778rem;
   height: 2rem;
   padding: 0.4444444444rem 0.8888888889rem;
-  color: rgba(255, 255, 255, 0.38);
+  color: #23354B;
 }
 .btn-text.btn-16 .material-icons-outlined {
   font-size: 1.1111111111rem;
@@ -7369,7 +7369,7 @@ Notes:
   gap: 0.4444444444rem;
   height: 2rem;
   padding: 0.4444444444rem 0.8888888889rem 0.4444444444rem 0.6666666667rem;
-  color: rgba(255, 255, 255, 0.38);
+  color: #23354B;
 }
 .btn-text.btn-16add .material-icons-outlined {
   font-size: 1.1111111111rem;
@@ -7391,7 +7391,7 @@ Notes:
   gap: 0.4444444444rem;
   height: 2rem;
   padding: 0.4444444444rem 0.6666666667rem 0.4444444444rem 0.8888888889rem;
-  color: rgba(255, 255, 255, 0.38);
+  color: #23354B;
 }
 .btn-text.btn-16arrow .material-icons-outlined {
   font-size: 1.1111111111rem;
@@ -7603,7 +7603,7 @@ Notes:
   justify-content: center;
   gap: 0.4444444444rem;
   height: 2.4444444444rem;
-  color: rgba(35, 53, 75, 0.72);
+  color: #364A63;
   cursor: pointer;
   width: 2.2222222222rem;
   height: 2.2222222222rem;
@@ -7641,7 +7641,7 @@ Notes:
   justify-content: center;
   gap: 0.4444444444rem;
   height: 2rem;
-  color: rgba(35, 53, 75, 0.72);
+  color: #364A63;
   cursor: pointer;
   width: 2rem;
   height: 2rem;
@@ -7678,7 +7678,7 @@ Notes:
   align-items: center;
   justify-content: center;
   gap: 0.4444444444rem;
-  color: rgba(35, 53, 75, 0.72);
+  color: #364A63;
   cursor: pointer;
   width: 1.3333333333rem;
   height: 1.3333333333rem;
@@ -7716,7 +7716,7 @@ Notes:
   justify-content: center;
   gap: 0.4444444444rem;
   height: 2.4444444444rem;
-  color: rgba(35, 53, 75, 0.38);
+  color: #545F76;
   width: 2.2222222222rem;
   height: 2.2222222222rem;
   border-radius: 50%;
@@ -7744,7 +7744,7 @@ Notes:
   justify-content: center;
   gap: 0.4444444444rem;
   height: 2rem;
-  color: rgba(35, 53, 75, 0.38);
+  color: #545F76;
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
@@ -7771,7 +7771,7 @@ Notes:
   align-items: center;
   justify-content: center;
   gap: 0.4444444444rem;
-  color: rgba(35, 53, 75, 0.38);
+  color: #545F76;
   width: 1.3333333333rem;
   height: 1.3333333333rem;
   border-radius: 50%;
@@ -7810,13 +7810,13 @@ Notes:
   font-size: 1.1111111111rem;
 }
 .btn-icona.btn-27:hover {
-  background-color: rgba(255, 255, 255, 0.08);
+  background-color: #344559;
 }
 .btn-icona.btn-27:active {
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: #3D4E62;
 }
 .btn-icona.btn-27:focus {
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: #3D4E62;
 }
 .btn-icona.btn-27 .material-icons-outlined {
   font-size: 1.3333333333rem;
@@ -7848,13 +7848,13 @@ Notes:
   font-size: 1.1111111111rem;
 }
 .btn-icona.btn-28:hover {
-  background-color: rgba(255, 255, 255, 0.08);
+  background-color: #344559;
 }
 .btn-icona.btn-28:active {
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: #3D4E62;
 }
 .btn-icona.btn-28:focus {
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: #3D4E62;
 }
 .btn-icona.btn-28 .material-icons-outlined {
   font-size: 1.1111111111rem;
@@ -7885,13 +7885,13 @@ Notes:
   font-size: 1.1111111111rem;
 }
 .btn-icona.btn-29:hover {
-  background-color: rgba(255, 255, 255, 0.08);
+  background-color: #344559;
 }
 .btn-icona.btn-29:active {
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: #3D4E62;
 }
 .btn-icona.btn-29:focus {
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: #3D4E62;
 }
 .btn-icona.btn-29 .material-icons-outlined {
   font-size: 0.8888888889rem;
@@ -7912,7 +7912,7 @@ Notes:
   justify-content: center;
   gap: 0.4444444444rem;
   height: 2.4444444444rem;
-  color: rgba(255, 255, 255, 0.38);
+  color: #23354B;
   width: 2.2222222222rem;
   height: 2.2222222222rem;
   border-radius: 50%;
@@ -7940,7 +7940,7 @@ Notes:
   justify-content: center;
   gap: 0.4444444444rem;
   height: 2rem;
-  color: rgba(255, 255, 255, 0.38);
+  color: #23354B;
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
@@ -7967,7 +7967,7 @@ Notes:
   align-items: center;
   justify-content: center;
   gap: 0.4444444444rem;
-  color: rgba(255, 255, 255, 0.38);
+  color: #23354B;
   width: 1.3333333333rem;
   height: 1.3333333333rem;
   border-radius: 50%;
@@ -7984,7 +7984,7 @@ Notes:
   border: none;
   background: none;
   border-radius: 6px;
-  border: 0.0555555556rem solid rgba(35, 53, 75, 0.12);
+  border: 0.0555555556rem solid #71788D;
   font-family: "Work Sans", sans-serif;
   background-color: #fff;
   text-align: left;
@@ -8005,7 +8005,7 @@ Notes:
   gap: 0.8888888889rem;
 }
 .btn-login.btn-33 .btn-login-content .material-icons {
-  color: rgba(35, 53, 75, 0.72);
+  color: #364A63;
   font-size: 1.3333333333rem;
   padding: 1.3333333333rem 0.8888888889rem 1.3333333333rem 0;
 }
@@ -8035,7 +8035,7 @@ Notes:
 }
 .btn-login.btn-33 .btn-description {
   margin: 0;
-  color: rgba(35, 53, 75, 0.72);
+  color: #364A63;
   font-size: 0.7222222222rem;
   font-weight: 400;
   line-height: 0.8888888889rem;
@@ -8182,7 +8182,7 @@ Notes:
 }
 
 .grey-color-medium {
-  color: rgba(35, 53, 75, 0.72);
+  color: #364A63;
 }
 
 .link-intern-normal {
@@ -8203,7 +8203,7 @@ Notes:
   letter-spacing: 0.0138888889rem;
   line-height: 1.1111111111rem;
   color: #23354B;
-  color: rgba(35, 53, 75, 0.72);
+  color: #364A63;
 }
 .link-intern-underline:hover {
   color: #23354B;
@@ -8230,7 +8230,7 @@ Notes:
   letter-spacing: 0.0138888889rem;
   line-height: 1.1111111111rem;
   color: #23354B;
-  color: rgba(35, 53, 75, 0.72);
+  color: #364A63;
 }
 .link-extern-underline:hover {
   color: #23354B;
@@ -8256,7 +8256,7 @@ Notes:
 
 .link-mail {
   font-weight: 500;
-  color: rgba(35, 53, 75, 0.72);
+  color: #364A63;
 }
 .link-mail:hover {
   color: #23354B;
@@ -8297,7 +8297,7 @@ input[aria-invalid=true] {
   letter-spacing: 0rem;
   line-height: 1.1111111111rem;
   color: #23354B;
-  color: rgba(35, 53, 75, 0.72);
+  color: #364A63;
 }
 .select-input select {
   width: 5rem;
@@ -8325,7 +8325,7 @@ fieldset {
   font-family: "Material Icons Outlined";
   font-size: 16px;
   content: "arrow_drop_down"/"";
-  color: rgba(35, 53, 75, 0.72);
+  color: #364A63;
   position: absolute;
   right: 16px;
   top: 31%;
@@ -8334,7 +8334,7 @@ fieldset {
 }
 .custom-select .combo-input {
   background-color: #fff;
-  border: 1px solid rgba(35, 53, 75, 0.72);
+  border: 1px solid #364A63;
   border-radius: 6px 0px 0px 6px;
   display: block;
   padding: 0.6666666667rem 2.2222222222rem 0.6666666667rem 0.8888888889rem;
@@ -8353,7 +8353,7 @@ fieldset {
 }
 .custom-select .combo-menu {
   background-color: #fff;
-  border: 1px solid rgba(35, 53, 75, 0.72);
+  border: 1px solid #364A63;
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
@@ -8483,7 +8483,7 @@ fieldset {
 }
 .form-column .form-field input, .form-column fieldset input {
   border-radius: 0.3333333333rem;
-  border: 0.0555555556rem solid rgba(35, 53, 75, 0.72);
+  border: 0.0555555556rem solid #364A63;
 }
 .form-column .form-field input[type=checkbox], .form-column fieldset input[type=checkbox] {
   width: 1rem;
@@ -8577,7 +8577,7 @@ header p {
 .banner-error {
   background-color: #FCE4EC;
   border-radius: 6px;
-  border: 0.0555555556rem solid rgba(35, 53, 75, 0.12);
+  border: 0.0555555556rem solid #71788D;
   box-shadow: 0px 2px 3px 0px rgba(35, 53, 75, 0.08);
   display: flex;
   flex-direction: row;
