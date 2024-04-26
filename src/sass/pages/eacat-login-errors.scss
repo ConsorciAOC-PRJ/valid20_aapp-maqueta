@@ -1,0 +1,40 @@
+.eacat-login-error {
+
+    .left-col {
+        margin-top: rem(24px);
+        margin-bottom: rem(24px);
+
+        @media #{$screen-lg} {
+            padding: rem(96px) rem(152px) 0 rem(112px);
+            margin-bottom: rem(100px);
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        ol {
+            margin: 0;
+            padding: 0 0 0 rem(20px);
+
+            li {
+                margin-bottom: rem(14px);
+            }
+        }
+
+        button{
+            margin-top: rem(40px);
+        } 
+    }
+
+    .right-col {       
+        .vectors-CE {
+            display: none;
+            @media #{$screen-lg} {
+                display: flex;
+                justify-content: center;            
+                align-items: center;            
+            }   
+        }
+    }
+}
