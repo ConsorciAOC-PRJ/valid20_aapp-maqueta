@@ -1,0 +1,7 @@
+.background {
+  @media #{$screen-lg} {
+      background-image: url("../../assets/pedrera.png");
+      background-size: cover;
+      background-position: center;
+  }
+}
