@@ -8,8 +8,11 @@
     flex-direction: row;
     align-items: flex-start;
     gap: rem(8px);
-    padding: rem(8px);
-    width: rem(336px);
+    padding: rem(8px);    
+
+    @media #{$screen-lg} {    
+        width: rem(336px);        
+    }
 
     .material-icons {
         color: $error-color-600;

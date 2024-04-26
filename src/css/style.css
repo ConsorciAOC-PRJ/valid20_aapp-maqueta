@@ -8584,7 +8584,11 @@ header p {
   align-items: flex-start;
   gap: 0.4444444444rem;
   padding: 0.4444444444rem;
-  width: 18.6666666667rem;
+}
+@media (min-width: 992px) {
+  .banner-error {
+    width: 18.6666666667rem;
+  }
 }
 .banner-error .material-icons {
   color: #D61660;
