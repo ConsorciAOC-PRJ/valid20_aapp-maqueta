@@ -93,7 +93,7 @@
     // *** Subratllat ***
     @if $type =='subratllat' {
         @if $state =='active' {
-            border: $btn-border $grey-color-divider;
+            border: $btn-border $grey-color-medium;
             color: $grey-color-hight;
             cursor: pointer;
 
@@ -356,7 +356,7 @@
     border: none;
     background: none;
     border-radius: $btn-border-radius;
-    border: rem(1px) solid $grey-color-divider;
+    border: rem(1px) solid $grey-color-medium;
     font-family: $btn-font-family;
     background-color: $btn-login;
     text-align: left;

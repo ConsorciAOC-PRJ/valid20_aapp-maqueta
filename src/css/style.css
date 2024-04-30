@@ -6448,7 +6448,7 @@ Notes:
   letter-spacing: 0.0277777778rem;
   height: 2.4444444444rem;
   padding: 0.6666666667rem 0.8888888889rem;
-  border: 1px solid rgba(35, 53, 75, 0.12);
+  border: 1px solid rgba(35, 53, 75, 0.72);
   color: #23354B;
   cursor: pointer;
 }
@@ -6487,7 +6487,7 @@ Notes:
   gap: 0.4444444444rem;
   height: 2.4444444444rem;
   padding: 0.6666666667rem 0.8888888889rem 0.6666666667rem 0.6666666667rem;
-  border: 1px solid rgba(35, 53, 75, 0.12);
+  border: 1px solid rgba(35, 53, 75, 0.72);
   color: #23354B;
   cursor: pointer;
 }
@@ -6526,7 +6526,7 @@ Notes:
   gap: 0.4444444444rem;
   height: 2.4444444444rem;
   padding: 0.6666666667rem 0.6666666667rem 0.6666666667rem 0.8888888889rem;
-  border: 1px solid rgba(35, 53, 75, 0.12);
+  border: 1px solid rgba(35, 53, 75, 0.72);
   color: #23354B;
   cursor: pointer;
 }
@@ -6560,7 +6560,7 @@ Notes:
   letter-spacing: 0.0277777778rem;
   height: 2rem;
   padding: 0.4444444444rem 0.8888888889rem;
-  border: 1px solid rgba(35, 53, 75, 0.12);
+  border: 1px solid rgba(35, 53, 75, 0.72);
   color: #23354B;
   cursor: pointer;
 }
@@ -6599,7 +6599,7 @@ Notes:
   gap: 0.4444444444rem;
   height: 2rem;
   padding: 0.4444444444rem 0.8888888889rem 0.4444444444rem 0.6666666667rem;
-  border: 1px solid rgba(35, 53, 75, 0.12);
+  border: 1px solid rgba(35, 53, 75, 0.72);
   color: #23354B;
   cursor: pointer;
 }
@@ -6638,7 +6638,7 @@ Notes:
   gap: 0.4444444444rem;
   height: 2rem;
   padding: 0.4444444444rem 0.6666666667rem 0.4444444444rem 0.8888888889rem;
-  border: 1px solid rgba(35, 53, 75, 0.12);
+  border: 1px solid rgba(35, 53, 75, 0.72);
   color: #23354B;
   cursor: pointer;
 }
@@ -7984,7 +7984,7 @@ Notes:
   border: none;
   background: none;
   border-radius: 6px;
-  border: 0.0555555556rem solid rgba(35, 53, 75, 0.12);
+  border: 0.0555555556rem solid rgba(35, 53, 75, 0.72);
   font-family: "Work Sans", sans-serif;
   background-color: #ffffff;
   text-align: left;
@@ -8583,7 +8583,7 @@ header p {
 .banner-error {
   background-color: #FCE4EC;
   border-radius: 6px;
-  border: 0.0555555556rem solid rgba(35, 53, 75, 0.12);
+  border: 0.0555555556rem solid rgba(35, 53, 75, 0.72);
   box-shadow: 0px 2px 3px 0px rgba(35, 53, 75, 0.08);
   display: flex;
   flex-direction: row;
@@ -8608,7 +8608,7 @@ header p {
 .banner-info {
   background-color: #F2F9FF;
   border-radius: 6px;
-  border: 0.0555555556rem solid rgba(35, 53, 75, 0.12);
+  border: 0.0555555556rem solid rgba(35, 53, 75, 0.72);
   box-shadow: 0px 2px 3px 0px rgba(35, 53, 75, 0.08);
   display: flex;
   flex-direction: row;
