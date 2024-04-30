@@ -74,6 +74,10 @@
     color: $grey-color-medium;
 }
 
+.p-error {
+    color: $error-color-600;
+}
+
 // LINKS
 .link-intern-normal{
     @include font(15px, 500, 20px, 0.5px);    

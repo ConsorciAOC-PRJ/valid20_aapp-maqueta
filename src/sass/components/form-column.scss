@@ -51,8 +51,12 @@
 
         input{
             border-radius: rem(6px);
-            border: rem(1px) solid $grey-color-medium;
-        }      
+            border: 1px solid $grey-color-medium;
+        }
+        
+        input[aria-invalid="true"] {
+            border: 2px solid $error-color-600;
+        }
         
         input[type=checkbox] {
             width: rem(18px);
