@@ -1,0 +1,28 @@
+.verify-component {
+  margin-bottom: rem(16px);
+
+  .title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: rem(4px);
+
+    button {
+        margin: 0;
+    }
+  }
+
+  .help-message {
+    display: none;
+    width: rem(384px);
+    margin-bottom: rem(16px);
+
+    ul {
+        padding: 0;
+    }
+  }
+
+  .show {
+    display: flex;
+  }
+}

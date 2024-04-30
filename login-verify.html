@@ -26,39 +26,70 @@
             </div>
         </div>
         <div class="row g-0">
-            <!-- <main> -->
-            <div class="col-12 col-lg-6 left-col">
-                <!-- Title -->
-                <h1 class="display-1">S'ha enviat un SMS amb el codi al teu mòbil</h1>                
-            </div>
-            <div class="col-12 col-lg-6 right-col">
-                <!-- Login buttons and access -->
-                <div class="form-column">
-                    <div class="inside">
-                        <h2 class="headline">Verifica el codi</h2>
-                        <form>
-                            <fieldset aria-labelledby="id-document">
-                                <legend class="subheading-1 p-0" id="id-document">Codi de verificació</legend>                                        
+            <main>
+                <div class="col-12 col-lg-6 left-col">
+                    <!-- Title -->
+                    <h1 class="display-1">S'ha enviat un SMS amb el codi al teu mòbil</h1>
+                </div>
+                <div class="col-12 col-lg-6 right-col">
+                    <!-- Login buttons and access -->
+                    <div class="form-column">
+                        <div class="inside">
+                            <h2 class="headline">Verifica el codi</h2>
+                            <form>
+                                <div role="group" class="verify-component" aria-labelledby="field-title">
+                                    <div class="title-container">
+                                        <div id="field-title" class="subheading-1">Codi de verificació</div>
+                                        <button type="button" class="help-button btn-icona btn-22"
+                                            aria-expanded="false">
+                                            <span class="material-icons-outlined" aria-hidden="true">info</span>
+                                            <span class="sr-only">Més informació</span>
+                                        </button>
+                                    </div>
+                                    <div class="help-message banner-info" role="region" aria-labelledby="help-message-title">
+                                        <span class="material-icons" aria-hidden="true">error</span>
+                                        <div>
+                                            <p class="text-error grey-color-hight" id="help-message-title">Ajuda per introduir el codi de verificació:</p>
+                                            <ul>
+                                                <li class="text-error grey-color-hight">En introduir un caràcter, el focus es mourà automàticament al següent
+                                                    camp.</li>
+                                                <li class="text-error grey-color-hight">En enganxar el codi al primer camp, el focus es mou a l'últim camp.</li>
+                                                <li class="text-error grey-color-hight">Amb la tecla retrocés, es buida el camp actual i es mou el focus al camp
+                                                    anterior, de manera que es poden buidar els camps amb navegació inversa.
+                                                </li>
+                                                <li class="text-error grey-color-hight">Amb la tecla "suprimir", s'elimina el contingut del camp actual.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                     <div class="select-text-field input-verify">
-                                        <label for="number-id-document" class="sr-only">Codi de verificació</label>
-                                        <input class="field text-p-16" type="text" id="number-verification">
-                                        <input class="field text-p-16" type="text" id="number-verification">   
-                                        <input class="field text-p-16" type="text" id="number-verification"> 
-                                        <input class="field text-p-16" type="text" id="number-verification"> 
-                                        <input class="field text-p-16" type="text" id="number-verification"> 
-                                        <input class="field text-p-16" type="text" id="number-verification">                                       
-                                    </div>                                
-                            </fieldset>       
-                            
-                            <button class="btn-emplenats btn-1" type="submit">Accedir</button>
+                                        <label class="sr-only" for="validation-1">1/6</label>
+                                        <input id="validation-1" class="field text-p-17 validation-input center"
+                                            type="text" value="" name="one" maxlength="1">
+                                        <label class="sr-only" for="validation-2">2/6</label>
+                                        <input id="validation-2" class="field text-p-17 validation-input center"
+                                            type="text" value="" name="two" maxlength="1">
+                                        <label class="sr-only" for="validation-3">3/6</label>
+                                        <input id="validation-3" class="field text-p-17 validation-input center"
+                                            type="text" value="" name="three" maxlength="1">
+                                        <label class="sr-only" for="validation-4">4/6</label>
+                                        <input id="validation-4" class="field text-p-17 validation-input center"
+                                            type="text" value="" name="four" maxlength="1">
+                                        <label class="sr-only" for="validation-5">5/6</label>
+                                        <input id="validation-5" class="field text-p-17 validation-input center"
+                                            type="text" value="" name="five" maxlength="1">
+                                        <label class="sr-only" for="validation-6">6/6</label>
+                                        <input id="validation-6" class="field text-p-17 validation-input center"
+                                            type="text" value="" name="six" maxlength="1">
+                                    </div>
+                                </div>
+                                <button class="btn-emplenats btn-1" type="submit">Accedir</button>
+                            </form>
                             <p class="text-p-13">El SMS pot arribar a allargar-se uns minuts.</p>
                             <a class="link-intern-normal" href="#">No reps el codi?</a>
-
-                        </form>                                                                          
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!-- </main> -->
+            </main>
         </div>
     </div>
     <div class="container-fluid g-0">
@@ -80,6 +111,7 @@
             </div>
         </div>
     </div>
+    <script src="src/js/verify.js"></script>
 </body>
 
 </html>

@@ -8268,6 +8268,10 @@ Notes:
   color: #006BE8;
 }
 
+.center {
+  text-align: center;
+}
+
 input.field, select.field {
   border: 1px solid #23354B;
   border-radius: 6px;
@@ -8469,6 +8473,7 @@ fieldset {
     width: auto;
     box-shadow: 0px 24px 38px 0px rgba(0, 0, 0, 0.14);
     padding: 1.3333333333rem;
+    min-width: 21.3333333333rem;
   }
 }
 .form-column .login-buttons {
@@ -8600,12 +8605,61 @@ header p {
   margin: 0.4444444444rem 0.4444444444rem 0.4444444444rem 0;
 }
 
+.banner-info {
+  background-color: #F2F9FF;
+  border-radius: 6px;
+  border: 0.0555555556rem solid rgba(35, 53, 75, 0.12);
+  box-shadow: 0px 2px 3px 0px rgba(35, 53, 75, 0.08);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0.4444444444rem;
+  padding: 0.4444444444rem;
+}
+@media (min-width: 992px) {
+  .banner-info {
+    width: 18.6666666667rem;
+  }
+}
+.banner-info .material-icons {
+  color: #006BE8;
+  font-size: 1.1111111111rem;
+  padding: 0.4444444444rem;
+}
+.banner-info p {
+  margin: 0.4444444444rem 0.4444444444rem 0.4444444444rem 0;
+}
+
 @media (min-width: 992px) {
   .background {
     background-image: url("../../assets/pedrera.png");
     background-size: cover;
     background-position: center;
   }
+}
+
+.verify-component {
+  margin-bottom: 0.8888888889rem;
+}
+.verify-component .title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.2222222222rem;
+}
+.verify-component .title-container button {
+  margin: 0;
+}
+.verify-component .help-message {
+  display: none;
+  width: 21.3333333333rem;
+  margin-bottom: 0.8888888889rem;
+}
+.verify-component .help-message ul {
+  padding: 0;
+}
+.verify-component .show {
+  display: flex;
 }
 
 .eacat-login .left-col {

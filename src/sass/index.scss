@@ -5,6 +5,7 @@
 // @import mixins
 @import './mixins/buttons.scss';
 @import './mixins/fonts.scss';
+@import './mixins/banner.scss';
 
 //#region @import bootstrap
     // @see https://getbootstrap.com/docs/5.3/customize/sass/
@@ -45,6 +46,7 @@
 @import './components/header.scss';
 @import './components/banner.scss';
 @import './components/background.scss';
+@import './components/verify.scss';
 
 // @import custom styles for pages
 @import './pages/eacat-login.scss';
