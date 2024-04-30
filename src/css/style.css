@@ -8652,8 +8652,13 @@ header p {
 }
 .verify-component .help-message {
   display: none;
-  width: 21.3333333333rem;
+  width: 100%;
   margin-bottom: 0.8888888889rem;
+}
+@media (min-width: 992px) {
+  .verify-component .help-message {
+    width: 21.3333333333rem;
+  }
 }
 .verify-component .help-message ul {
   padding: 0;
