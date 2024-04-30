@@ -1,7 +1,7 @@
 @mixin banner($background-color, $icon-color) {
     background-color: $background-color;
     border-radius: $btn-border-radius;
-    border: rem(1px) solid $grey-color-medium;
+    border: rem(1px) solid $grey-color-divider;
     box-shadow: $btn-shadow-2dp;
     display: flex;
     flex-direction: row;

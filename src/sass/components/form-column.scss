@@ -78,8 +78,12 @@
     .input-verify{    
         display: flex;
         flex-direction: row;   
-        justify-content: space-between;    
-        gap: rem(8px);               
+        justify-content: flex-start;    
+        gap: rem(8px);
+
+        @media #{$screen-lg} {
+            justify-content: space-between; 
+        }              
 
         input{
             width: rem(49px);

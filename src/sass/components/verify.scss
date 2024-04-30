@@ -14,12 +14,7 @@
 
   .help-message {
     display: none;
-    width: 100%;
     margin-bottom: rem(16px);
-
-    @media #{$screen-lg} {
-        width: rem(384px);
-    }
 
     ul {
         padding: 0;
