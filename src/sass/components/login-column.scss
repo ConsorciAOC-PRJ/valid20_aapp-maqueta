@@ -33,7 +33,7 @@
         width: 100%;
 
         @media #{$screen-lg} {
-            width: auto;
+            width: rem(384px);
         }
     }
 

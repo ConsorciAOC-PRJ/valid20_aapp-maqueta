@@ -8449,7 +8449,7 @@ fieldset {
 }
 @media (min-width: 992px) {
   .login-column .inside {
-    width: auto;
+    width: 21.3333333333rem;
   }
 }
 .login-column .login-buttons {
@@ -8488,10 +8488,9 @@ fieldset {
 }
 @media (min-width: 992px) {
   .form-column .inside {
-    width: auto;
+    width: 21.3333333333rem;
     box-shadow: 0px 24px 38px 0px rgba(0, 0, 0, 0.14);
     padding: 1.3333333333rem;
-    min-width: 21.3333333333rem;
   }
 }
 .form-column .login-buttons {
@@ -8616,11 +8615,7 @@ header p {
   align-items: flex-start;
   gap: 0.4444444444rem;
   padding: 0.4444444444rem;
-}
-@media (min-width: 992px) {
-  .banner-error {
-    width: 18.6666666667rem;
-  }
+  width: 100%;
 }
 .banner-error .material-icons {
   color: #D61660;
@@ -8641,11 +8636,7 @@ header p {
   align-items: flex-start;
   gap: 0.4444444444rem;
   padding: 0.4444444444rem;
-}
-@media (min-width: 992px) {
-  .banner-info {
-    width: 18.6666666667rem;
-  }
+  width: 100%;
 }
 .banner-info .material-icons {
   color: #006BE8;
